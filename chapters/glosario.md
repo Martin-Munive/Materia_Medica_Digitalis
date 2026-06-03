@@ -6,6 +6,14 @@ Este glosario no reemplaza las explicaciones de cada capítulo. Su función es o
 
 Especificación finita, ordenada y verificable de transformaciones y decisiones que convierte entradas en salidas bajo reglas, restricciones y criterios de terminación.
 
+## Acumulador
+
+Variable o estructura que conserva información producida durante un recorrido. Puede guardar conteos, sumas, elementos filtrados, razones, errores o estados intermedios.
+
+## Bucle
+
+Estructura de control que repite una operación bajo una regla de recorrido o permanencia. En este libro, un bucle también representa una forma de gobernar procesos y conservar estado.
+
 ## Complejidad computacional
 
 Forma de estudiar cómo crece el costo de un algoritmo cuando aumenta el tamaño de la entrada. Ese costo puede medirse en tiempo, memoria, llamadas a disco, comunicaciones o energía.
@@ -45,6 +53,10 @@ Condición que interrumpe, modifica o degrada el flujo esperado de un procedimie
 ## Función
 
 Bloque reutilizable de código que recibe entradas, ejecuta una operación y puede devolver una salida. En este libro, una función también será tratada como unidad de diseño y verificación.
+
+## Iteración
+
+Cada repetición individual de un bucle. Durante una iteración pueden cambiar acumuladores, estados, salidas parciales o condiciones de parada.
 
 ## Rama
 

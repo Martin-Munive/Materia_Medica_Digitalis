@@ -16,6 +16,7 @@ parts:
           - file: chapters/04-estados-condiciones-umbrales
           - file: chapters/05-excepciones-datos-faltantes-trazabilidad
           - file: chapters/06-condicionales-arquitectura-decision
+          - file: chapters/07-bucles-control-procesos
   - caption: Apéndices
     chapters:
       - file: chapters/apendice-a-entorno

@@ -11,7 +11,7 @@ La intención no es usar `Clean Code` como texto para transferir al libro. La in
 Archivo privado:
 
 ```text
-C:\Users\Oncología\Documents\PYTHON CODES\BRAIN\BIBLIOGRAFÍA\PRIVATE\Clean Code\Clean Code.pdf
+ruta privada legacy pendiente de reubicar: `BIBLIOGRAFIA/PRIVATE/Clean Code/Clean Code.pdf`
 ```
 
 Estado:

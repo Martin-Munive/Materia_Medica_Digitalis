@@ -47,6 +47,7 @@ El proyecto también cumple una función formativa interna: el libro se construy
   - `Estados, condiciones y umbrales`.
   - `Excepciones, datos faltantes y trazabilidad`.
   - `Condicionales como arquitectura de decisión`.
+  - `Bucles como control de procesos`.
 - Apéndice A: entorno de trabajo.
 - Glosario vivo.
 
@@ -91,6 +92,8 @@ Cambios incorporados en el ciclo actual:
 - Documentación de propuesta de rediseño profesional de portada.
 - Implementación inicial del rediseño de portada con hero editorial, mapa conceptual, progresión y rutas de lectura.
 - Inicio de la línea transversal `CODE CLEAN` en una sección nueva sobre condicionales: versión frágil, crítica técnica, versión mejorada, prueba mínima y lección transferible.
+- Creación de la sección `Bucles como control de procesos`, con foco en recorrido, acumuladores, condición de parada, trazabilidad y diferencias operativas entre `for` y `while`.
+- Actualización de `_toc.yml` y del glosario con `Acumulador`, `Bucle` e `Iteración`.
 
 ## Estándar vigente para ejemplos de código
 
@@ -128,7 +131,6 @@ Prioridad siguiente:
 
 Siguientes secciones candidatas:
 
-- Bucles como control de procesos.
 - Funciones como encapsulamiento de criterio.
 - Errores, excepciones y seguridad del cálculo.
 - Pruebas y verificación mínima.
@@ -145,6 +147,6 @@ Siguientes secciones candidatas:
 Retomar por:
 
 1. `docs/cover_design_brief.md`.
-2. Revisión visual de `chapters/00-portada.md`.
-3. Ajuste fino de `_static/custom.css` si hace falta.
+2. Continuar con `chapters/08-funciones-encapsulamiento-criterio.md`.
+3. Mantener la línea `CODE CLEAN`: versión frágil, crítica, versión mejorada, salida esperada y prueba mínima.
 4. Build local con `.\venv\Scripts\jupyter-book.exe build .`.
