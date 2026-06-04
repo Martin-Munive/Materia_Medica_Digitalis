@@ -54,9 +54,21 @@ Condición que interrumpe, modifica o degrada el flujo esperado de un procedimie
 
 Bloque reutilizable de código que recibe entradas, ejecuta una operación y puede devolver una salida. En este libro, una función también será tratada como unidad de diseño y verificación.
 
+## Contrato
+
+Promesa operacional de una función, regla o componente: qué entradas espera, qué salida entrega, qué casos cubre y qué límites no debe cruzar.
+
+## Docstring
+
+Texto interno de documentación ubicado al inicio de una función, clase o módulo en Python. Sirve para explicar propósito, contrato y límites de uso.
+
 ## Iteración
 
 Cada repetición individual de un bucle. Durante una iteración pueden cambiar acumuladores, estados, salidas parciales o condiciones de parada.
+
+## Parámetro
+
+Nombre que representa una entrada esperada por una función. Un buen parámetro conserva la información necesaria sobre dominio, unidad o significado.
 
 ## Rama
 
@@ -69,6 +81,10 @@ Representación simplificada de un fenómeno. Un modelo decide qué aspectos del
 ## Representación
 
 Forma en que un fenómeno del mundo se convierte en algo manipulable por un sistema: variable, lista, tabla, matriz, grafo, texto, señal, imagen o secuencia.
+
+## Retorno
+
+Salida que una función entrega al terminar. Puede ser un valor simple o una estructura con estado, razón y metadatos.
 
 ## Regla de decisión
 

@@ -48,6 +48,7 @@ El proyecto también cumple una función formativa interna: el libro se construy
   - `Excepciones, datos faltantes y trazabilidad`.
   - `Condicionales como arquitectura de decisión`.
   - `Bucles como control de procesos`.
+  - `Funciones como encapsulamiento de criterio`.
 - Apéndice A: entorno de trabajo.
 - Glosario vivo.
 
@@ -94,6 +95,8 @@ Cambios incorporados en el ciclo actual:
 - Inicio de la línea transversal `CODE CLEAN` en una sección nueva sobre condicionales: versión frágil, crítica técnica, versión mejorada, prueba mínima y lección transferible.
 - Creación de la sección `Bucles como control de procesos`, con foco en recorrido, acumuladores, condición de parada, trazabilidad y diferencias operativas entre `for` y `while`.
 - Actualización de `_toc.yml` y del glosario con `Acumulador`, `Bucle` e `Iteración`.
+- Creación de la sección `Funciones como encapsulamiento de criterio`, con foco en contrato, parámetros, retorno, docstrings, comentarios útiles y pruebas mínimas con `assert`.
+- Actualización de `_toc.yml` y del glosario con `Contrato`, `Docstring`, `Parámetro` y `Retorno`.
 
 ## Estándar vigente para ejemplos de código
 
@@ -127,11 +130,11 @@ Prioridad siguiente:
 
 1. Revisar visualmente la portada rediseñada en navegador.
 2. Ajustar detalles visuales si aparecen problemas de proporción o legibilidad.
-3. Iniciar la siguiente unidad: Python como arquitectura de decisión, aplicando la línea transversal `CODE CLEAN`.
+3. Continuar la siguiente unidad: Python como arquitectura de decisión, aplicando la línea transversal `CODE CLEAN`.
 
 Siguientes secciones candidatas:
 
-- Funciones como encapsulamiento de criterio.
+- Funciones puras, efectos y coordinación de procesos.
 - Errores, excepciones y seguridad del cálculo.
 - Pruebas y verificación mínima.
 
@@ -147,6 +150,6 @@ Siguientes secciones candidatas:
 Retomar por:
 
 1. `docs/cover_design_brief.md`.
-2. Continuar con `chapters/08-funciones-encapsulamiento-criterio.md`.
+2. Continuar con la sección posterior a `chapters/08-funciones-encapsulamiento-criterio.md`.
 3. Mantener la línea `CODE CLEAN`: versión frágil, crítica, versión mejorada, salida esperada y prueba mínima.
 4. Build local con `.\venv\Scripts\jupyter-book.exe build .`.
