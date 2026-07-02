@@ -117,3 +117,23 @@ Identificador que permite saber qué variante de un criterio, algoritmo o modelo
 ## Variable
 
 Nombre que conserva un valor para ser usado por un programa. En este libro, una variable se entiende también como una decisión de representación.
+
+## Excepción técnica
+
+Interrupción del flujo del programa causada por condiciones que el lenguaje puede detectar, como tipos incompatibles, valores fuera de rango o divisiones imposibles. Debe distinguirse de las excepciones del dominio.
+
+## Excepción del dominio
+
+Interrupción o degradación del flujo causada por una condición que el lenguaje no puede detectar por sí solo, como un dato fuera de población, una unidad equivocada o un valor fisiológicamente imposible. Su tratamiento es parte del diseño del algoritmo.
+
+## Error
+
+Condición que impide que un procedimiento produzca una salida confiable. Un error puede ser técnico o del dominio, y puede traducirse en una excepción explícita o en una salida degradada.
+
+## Manejo de excepciones
+
+Conjunto de prácticas que capturan, traducen y registran excepciones para evitar que el procedimiento falle de forma silenciosa o abrupta.
+
+## Seguridad del cálculo
+
+Propiedad de un sistema que limita la propagación del error, lo hace trazable y evita que una salida inválida se confunda con una salida válida. No se reduce a la corrección sintáctica del código.

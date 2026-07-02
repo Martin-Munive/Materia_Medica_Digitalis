@@ -97,6 +97,7 @@ Cambios incorporados en el ciclo actual:
 - Actualización de `_toc.yml` y del glosario con `Acumulador`, `Bucle` e `Iteración`.
 - Creación de la sección `Funciones como encapsulamiento de criterio`, con foco en contrato, parámetros, retorno, docstrings, comentarios útiles y pruebas mínimas con `assert`.
 - Actualización de `_toc.yml` y del glosario con `Contrato`, `Docstring`, `Parámetro` y `Retorno`.
+- Creación de la sección `Errores, excepciones y seguridad del cálculo` (cap. 09 dentro del cap. 01), con foco en excepciones técnicas y de dominio, captura específica, traducción de excepciones, prueba mínima con `assert` y trazabilidad del error. Commit `e93300b` firmado bajo la marca `MINIMAX` para que la memoria local de BRAIN registre autoría explícita del agente que lo redactó.
 
 ## Estándar vigente para ejemplos de código
 

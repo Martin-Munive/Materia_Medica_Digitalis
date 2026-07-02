@@ -18,6 +18,7 @@ parts:
           - file: chapters/06-condicionales-arquitectura-decision
           - file: chapters/07-bucles-control-procesos
           - file: chapters/08-funciones-encapsulamiento-criterio
+          - file: chapters/09-errores-excepciones-seguridad-calculo
   - caption: Apéndices
     chapters:
       - file: chapters/apendice-a-entorno
