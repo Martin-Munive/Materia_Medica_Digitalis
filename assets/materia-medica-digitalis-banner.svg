@@ -45,11 +45,11 @@
 
   <g transform="translate(808 292)">
     <rect width="112" height="34" rx="7" fill="#0f766e"/>
-    <text x="19" y="23" fill="#ecfeff" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">datos</text>
+    <text x="19" y="23" fill="#ecfeff" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Datos</text>
     <rect x="126" width="112" height="34" rx="7" fill="#0f172a" stroke="#2dd4bf"/>
-    <text x="145" y="23" fill="#a7f3d0" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">reglas</text>
+    <text x="145" y="23" fill="#a7f3d0" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Reglas</text>
     <rect x="252" width="134" height="34" rx="7" fill="#0f172a" stroke="#60a5fa"/>
-    <text x="270" y="23" fill="#bfdbfe" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">algoritmos</text>
+    <text x="270" y="23" fill="#bfdbfe" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Algoritmos</text>
   </g>
 
   <text x="88" y="111" fill="#f8fafc" font-family="Georgia, 'Times New Roman', serif" font-size="60" font-weight="700">Materia Médica Digitalis</text>
@@ -58,10 +58,10 @@
 
   <g transform="translate(90 256)">
     <rect width="184" height="38" rx="8" fill="#14b8a6"/>
-    <text x="18" y="26" fill="#042f2e" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Python + medicina</text>
-    <rect x="200" width="188" height="38" rx="8" fill="#0f172a" stroke="#5eead4"/>
-    <text x="218" y="26" fill="#ccfbf1" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">pensamiento algorítmico</text>
-    <rect x="404" width="152" height="38" rx="8" fill="#0f172a" stroke="#93c5fd"/>
-    <text x="422" y="26" fill="#dbeafe" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">libro web</text>
+    <text x="18" y="26" fill="#042f2e" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Python + Medicina</text>
+    <rect x="196" width="256" height="38" rx="8" fill="#0f172a" stroke="#5eead4"/>
+    <text x="214" y="26" fill="#ccfbf1" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Pensamiento Algorítmico</text>
+    <rect x="464" width="152" height="38" rx="8" fill="#0f172a" stroke="#93c5fd"/>
+    <text x="482" y="26" fill="#dbeafe" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Libro Web</text>
   </g>
 </svg>
