@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">Materia Médica Digitalis</title>
+  <desc id="desc">Banner for a web book about Python algorithms, medicine, biomedical data and life sciences.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#071316"/>
+      <stop offset="0.5" stop-color="#102a2d"/>
+      <stop offset="1" stop-color="#17324b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+    <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#background)"/>
+
+  <g opacity="0.14">
+    <path d="M780 56 H1150" stroke="#e0f2fe" stroke-width="1"/>
+    <path d="M780 104 H1150" stroke="#e0f2fe" stroke-width="1"/>
+    <path d="M780 152 H1150" stroke="#e0f2fe" stroke-width="1"/>
+    <path d="M780 200 H1150" stroke="#e0f2fe" stroke-width="1"/>
+    <path d="M780 248 H1150" stroke="#e0f2fe" stroke-width="1"/>
+    <path d="M820 28 V284" stroke="#e0f2fe" stroke-width="1"/>
+    <path d="M900 28 V284" stroke="#e0f2fe" stroke-width="1"/>
+    <path d="M980 28 V284" stroke="#e0f2fe" stroke-width="1"/>
+    <path d="M1060 28 V284" stroke="#e0f2fe" stroke-width="1"/>
+    <path d="M1140 28 V284" stroke="#e0f2fe" stroke-width="1"/>
+  </g>
+
+  <g filter="url(#soft-glow)" opacity="0.92">
+    <path d="M792 180 C830 180 834 122 860 122 C892 122 890 242 924 242 C958 242 958 142 990 142 C1020 142 1018 200 1048 200 C1078 200 1082 98 1114 98 C1144 98 1146 180 1178 180" fill="none" stroke="url(#accent)" stroke-linecap="round" stroke-width="7"/>
+    <circle cx="860" cy="122" r="7" fill="#2dd4bf"/>
+    <circle cx="924" cy="242" r="7" fill="#60a5fa"/>
+    <circle cx="990" cy="142" r="7" fill="#2dd4bf"/>
+    <circle cx="1114" cy="98" r="7" fill="#60a5fa"/>
+  </g>
+
+  <g transform="translate(808 292)">
+    <rect width="112" height="34" rx="7" fill="#0f766e"/>
+    <text x="19" y="23" fill="#ecfeff" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">datos</text>
+    <rect x="126" width="112" height="34" rx="7" fill="#0f172a" stroke="#2dd4bf"/>
+    <text x="145" y="23" fill="#a7f3d0" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">reglas</text>
+    <rect x="252" width="134" height="34" rx="7" fill="#0f172a" stroke="#60a5fa"/>
+    <text x="270" y="23" fill="#bfdbfe" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">algoritmos</text>
+  </g>
+
+  <text x="88" y="111" fill="#f8fafc" font-family="Georgia, 'Times New Roman', serif" font-size="60" font-weight="700">Materia Médica Digitalis</text>
+  <text x="90" y="163" fill="#5eead4" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700">Algoritmos en Python para Medicina y Ciencias de la Vida</text>
+  <text x="90" y="214" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="22">Datos clínicos, decisiones verificables, estructuras de información y sistemas biomédicos responsables.</text>
+
+  <g transform="translate(90 256)">
+    <rect width="184" height="38" rx="8" fill="#14b8a6"/>
+    <text x="18" y="26" fill="#042f2e" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Python + medicina</text>
+    <rect x="200" width="188" height="38" rx="8" fill="#0f172a" stroke="#5eead4"/>
+    <text x="218" y="26" fill="#ccfbf1" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">pensamiento algorítmico</text>
+    <rect x="404" width="152" height="38" rx="8" fill="#0f172a" stroke="#93c5fd"/>
+    <text x="422" y="26" fill="#dbeafe" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">libro web</text>
+  </g>
+</svg>
