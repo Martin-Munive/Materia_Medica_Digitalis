@@ -340,4 +340,4 @@ Diseñar el error es diseñar el sistema.
 
 ## Siguiente paso
 
-El siguiente tema natural es la verificación mínima del cálculo: pruebas, asserts, y separación entre pruebas unitarias y pruebas de integración. Si las funciones encapsulan criterio y las excepciones lo hacen explícito cuando el criterio falla, las pruebas enseñan cómo saber si el criterio funciona antes de que importe de verdad.
+El siguiente paso es una distinción de forma que prepara la verificación: separar las funciones que deciden de las que actúan sobre el mundo. Funciones puras, efectos y coordinación de procesos. Cuando decidir y hacer viven en piezas distintas, probar la decisión deja de exigir simular el mundo.

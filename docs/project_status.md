@@ -78,6 +78,9 @@ La cifra global sigue siendo baja porque la obra completa apunta más allá de u
 
 Cambios incorporados en el ciclo actual:
 
+- Creación de la sección `Funciones puras, efectos y coordinación de procesos` (sec. 10 dentro del cap. 01), con foco en tres roles de funciones, el patrón de extracción `pura → coordinación → ejecutor delgado`, revisión de mediciones de laboratorio como ejemplo biomédico y prueba mínima sin simular el mundo. Ejemplos de código verificados por ejecución antes del cierre.
+- Actualización de `_toc.yml`, del glosario con `Función pura`, `Efecto secundario` y `Coordinación de procesos`, y del `Siguiente paso` de la sec. 09 para encadenar la secuencia 09 → 10 → 11.
+
 - Corrección pedagógica de los ejemplos de código existentes:
   - comentarios internos;
   - salidas esperadas;

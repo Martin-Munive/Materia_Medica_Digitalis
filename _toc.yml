@@ -19,6 +19,7 @@ parts:
           - file: chapters/07-bucles-control-procesos
           - file: chapters/08-funciones-encapsulamiento-criterio
           - file: chapters/09-errores-excepciones-seguridad-calculo
+          - file: chapters/10-funciones-puras-efectos-coordinacion
   - caption: Apéndices
     chapters:
       - file: chapters/apendice-a-entorno

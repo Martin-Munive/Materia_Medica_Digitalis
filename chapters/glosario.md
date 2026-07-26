@@ -137,3 +137,15 @@ Conjunto de prácticas que capturan, traducen y registran excepciones para evita
 ## Seguridad del cálculo
 
 Propiedad de un sistema que limita la propagación del error, lo hace trazable y evita que una salida inválida se confunda con una salida válida. No se reduce a la corrección sintáctica del código.
+
+## Función pura
+
+Función cuya salida depende solo de sus entradas y que no produce efectos observables fuera de sí misma: no lee teclado, no imprime, no escribe archivos ni modifica estado externo. Misma entrada produce siempre misma salida, lo que la hace verificable con una sola llamada.
+
+## Efecto secundario
+
+Cualquier interacción de una función con el mundo exterior: leer entrada, imprimir, escribir archivos, consultar el reloj o modificar estado compartido. Los efectos no son errores; son necesidades que deben ubicarse en piezas delgadas y explícitas.
+
+## Coordinación de procesos
+
+Función pura que, en lugar de ejecutar efectos, construye la descripción de lo que debe ocurrir —el plan: qué mostrar, qué registrar, qué notificar— para que un ejecutor delgado lo lleve a cabo. Separa decidir de hacer.
