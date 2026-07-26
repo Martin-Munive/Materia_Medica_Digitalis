@@ -2,7 +2,7 @@
 
 ## Propósito
 
-Este documento registra solo la estructura temática heredada del repositorio antes de la reconstrucción editorial. No reutiliza ni valida el contenido antiguo como texto final. La nueva edición del libro se construye con `INMERSION CIENTIFICA`, bibliografía rastreable y una arquitectura editorial nueva.
+Este documento registra solo la estructura temática heredada del repositorio antes de la reconstrucción editorial. No reutiliza ni valida el contenido antiguo como texto final. La nueva edición del libro se construye con inmersión científica y crítica de fuentes, bibliografía rastreable y una arquitectura editorial nueva.
 
 ## Estructura heredada detectada
 
@@ -55,7 +55,7 @@ Usar la estructura heredada para enriquecer el índice maestro y decidir destino
 | Pruebas | Capítulo futuro sobre verificación, seguridad del cálculo y software médico responsable | Redacción nueva con ejemplos biomédicos y pruebas ejecutables. |
 | F-strings | Secciones donde aparezcan reportes, trazabilidad y salida de resultados | Recurso técnico puntual, no tema independiente. |
 | Programación orientada a objetos | Capítulo futuro sobre modelos, entidades, reglas y sistemas | Solo cuando exista una necesidad estructural clara. |
-| Big O, Omega y Theta | Unidad de algoritmos clásicos y costo clínico-operativo | Capítulo fuerte con `INMERSION CIENTIFICA`. |
+| Big O, Omega y Theta | Unidad de algoritmos clásicos y costo clínico-operativo | Capítulo fuerte con inmersión científica y crítica de fuentes. |
 | Arrays, listas y tuplas | Unidad de estructuras de datos para ciencias de la vida | Secciones sobre representación, signos vitales, tablas, series y matrices. |
 | Listas enlazadas | Unidad de estructuras lineales, memoria y flujos | Tema conceptual posterior; no prioridad inicial. |
 

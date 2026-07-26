@@ -170,7 +170,7 @@ _static/custom.css
 
 - Este libro no reemplaza juicio clínico, guías médicas, validación institucional ni revisión por especialistas.
 - Los ejemplos médicos son educativos y no deben usarse como herramientas asistenciales.
-- El repositorio público no debe mezclar documentación interna de BRAIN, notas de agentes, prompts ni material no publicable dentro del libro.
+- El repositorio público no debe mezclar documentación interna de planeación, notas de proceso ni material no publicable dentro del libro.
 - Las fuentes privadas o protegidas solo pueden orientar estudio; no deben copiarse ni parafrasearse de forma cercana.
 
 ## Roadmap público

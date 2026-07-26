@@ -97,7 +97,7 @@ Cambios incorporados en el ciclo actual:
 - Actualización de `_toc.yml` y del glosario con `Acumulador`, `Bucle` e `Iteración`.
 - Creación de la sección `Funciones como encapsulamiento de criterio`, con foco en contrato, parámetros, retorno, docstrings, comentarios útiles y pruebas mínimas con `assert`.
 - Actualización de `_toc.yml` y del glosario con `Contrato`, `Docstring`, `Parámetro` y `Retorno`.
-- Creación de la sección `Errores, excepciones y seguridad del cálculo` (cap. 09 dentro del cap. 01), con foco en excepciones técnicas y de dominio, captura específica, traducción de excepciones, prueba mínima con `assert` y trazabilidad del error. Commit `e93300b` firmado bajo la marca `MINIMAX` para que la memoria local de BRAIN registre autoría explícita del agente que lo redactó.
+- Creación de la sección `Errores, excepciones y seguridad del cálculo` (cap. 09 dentro del cap. 01), con foco en excepciones técnicas y de dominio, captura específica, traducción de excepciones, prueba mínima con `assert` y trazabilidad del error.
 
 ## Estándar vigente para ejemplos de código
 
@@ -118,8 +118,8 @@ Función:
 - aprender principios de código limpio mientras se construye el libro;
 - enseñar al lector qué está mal, por qué está mal y cómo puede hacerse mejor;
 - usar comparaciones entre versiones ingenuas y versiones responsables cuando aporten claridad;
-- aplicar `INMERSION CIENTIFICA` en implementaciones relevantes para contrastar fuentes, alternativas y límites;
-- promover aprendizajes técnicos reutilizables hacia BRAIN mediante `KINTARO` cuando mejoren `S-ESCRIBA`, `S-MITNICK` u otra skill.
+- aplicar inmersión científica y crítica de fuentes en implementaciones relevantes para contrastar fuentes, alternativas y límites;
+- registrar los aprendizajes técnicos reutilizables para futuros libros técnicos del autor.
 
 Límite:
 - la meta principal del libro no cambia. Sigue siendo `Algoritmos en Python para Medicina y Ciencias de la Vida`.

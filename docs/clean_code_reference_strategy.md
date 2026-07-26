@@ -4,22 +4,15 @@
 
 Definir cómo el proyecto aprenderá, practicará y enseñará principios de código limpio durante la creación de `Materia Médica Digitalis`, sin plagiar fuentes privadas ni reducir el proceso a una lista superficial de estilo.
 
-La intención no es usar `Clean Code` como texto para transferir al libro. La intención es que, mientras se escribe el libro, el autor y el sistema aprendan a diseñar mejores ejemplos, mejores explicaciones y mejores decisiones de programación, y que ese aprendizaje se convierta en enseñanza pública con voz propia.
+La intención no es usar `Clean Code` como texto para transferir al libro. La intención es que, mientras se escribe el libro, el autor aprenda a diseñar mejores ejemplos, mejores explicaciones y mejores decisiones de programación, y que ese aprendizaje se convierta en enseñanza pública con voz propia.
 
 ## Fuente privada disponible
 
-Archivo privado:
-
-```text
-ruta privada legacy pendiente de reubicar: `BIBLIOGRAFIA/PRIVATE/Clean Code/Clean Code.pdf`
-```
+El autor conserva una copia privada de `Clean Code` como material de consulta.
 
 Estado:
-- archivo verificado en la ruta indicada;
-- no se leyó completo;
-- no se extrajo contenido textual;
-- `pdftotext` no está disponible como comando local;
-- Python está disponible, pero aún no se verificó una librería adecuada para extraer índice o fragmentos de forma selectiva.
+- consulta selectiva pendiente: se usará por temas puntuales, no como lectura completa;
+- no se ha extraído ni se extraerá contenido textual para el libro.
 
 ## Regla de uso
 
@@ -41,7 +34,7 @@ Sí se puede:
 - convertir la escritura del libro en un proceso de aprendizaje técnico explícito;
 - enseñar al lector por qué una versión de código es más clara, verificable, mantenible o segura que otra;
 - mostrar evolución progresiva desde una solución ingenua hacia una solución mejor razonada;
-- convertir aprendizajes generales en reglas propias del proyecto mediante `KINTARO`.
+- convertir aprendizajes generales en reglas propias del proyecto.
 
 ## Visión operativa
 
@@ -82,7 +75,7 @@ Este patrón no debe volverse mecánico. Puede integrarse de forma natural cuand
 
 ## Inmersión científica y crítica de fuentes
 
-Cada implementación importante debe activar `INMERSION CIENTIFICA`.
+Cada implementación importante debe pasar por una inmersión científica y crítica de fuentes.
 
 Esto significa que `Clean Code` no se tratará como autoridad incuestionable. Puede orientar, pero debe contrastarse con otras fuentes, prácticas y criterios:
 
@@ -98,7 +91,7 @@ Regla:
 - si existe una alternativa mejor para el objetivo del libro, se adopta la alternativa y se explica por qué;
 - la crítica debe entrenar al autor y al lector, no solo decorar la sección con referencias.
 
-## Estrategia de economía de tokens
+## Estrategia de consulta selectiva
 
 No leer el PDF completo.
 
@@ -108,7 +101,7 @@ Flujo recomendado:
 2. Mapear tema -> aplicación en `Materia Médica Digitalis`.
 3. Consultar solo la sección necesaria cuando el libro esté trabajando ese tipo de problema.
 4. Registrar el aprendizaje aplicable con redacción propia.
-5. Promover a `S-ESCRIBA` solo si el aprendizaje sirve para futuros libros técnicos.
+5. Registrar el aprendizaje aplicable con redacción propia para futuros libros técnicos.
 
 ## Mapa inicial de aplicación
 
@@ -157,7 +150,7 @@ Límite de esta pasada:
 - esto todavía no agota la visión `CODE CLEAN`;
 - falta convertir el aprendizaje de código limpio en una progresión explícita dentro del libro;
 - falta decidir cómo aparecerán las comparaciones entre código ingenuo, código legible, código verificable y código responsable;
-- falta capturar con `LINTERNA` la visión completa del usuario antes de seguir expandiendo esta línea.
+- falta conversar y precisar la visión completa del libro antes de seguir expandiendo esta línea.
 
 Pendiente:
 
@@ -165,36 +158,13 @@ Pendiente:
 - aplicar el mismo estándar a las próximas secciones sobre condicionales, bucles, funciones, errores y verificación;
 - convertir cada nuevo ejemplo de código en una pieza ejecutable, verificable y explicada, no en un bloque decorativo.
 
-## Integración con KINTARO
+## Reutilización del aprendizaje
 
-Si durante el aprendizaje de código limpio aparece una regla reusable para futuros libros técnicos o para mejorar las habilidades del sistema:
+Si durante el aprendizaje de código limpio aparece una regla reusable:
 
 - documentarla primero en este proyecto si afecta el libro;
-- promoverla a `S-ESCRIBA` si afecta escritura de libros técnicos;
-- promoverla a una skill técnica si afecta programación general;
-- no elevarla a CORE salvo que cambie conducta transversal del sistema.
-
-## Integración con BRAIN, KUNDERA y habilidades
-
-El aprendizaje producido por este libro puede alimentar BRAIN.
-
-Ruta vigente:
-
-1. El libro genera un aprendizaje técnico o editorial durante una implementación real.
-2. Se documenta primero en este proyecto si afecta su continuidad.
-3. `KINTARO` decide si el aprendizaje debe promoverse:
-   - a `S-ESCRIBA`, si mejora escritura de libros técnicos;
-   - a `S-MITNICK`, si mejora programación, arquitectura, ejemplos, pruebas o revisión de código;
-   - a otro módulo si el aprendizaje pertenece a otro dominio.
-4. `KUNDERA` se usa cuando el aprendizaje nace de un error real: mala interpretación, ejemplo incorrecto, build fallido, prueba fallida o decisión técnica equivocada.
-5. `BRAIN-MVP-1` puede registrar episodios, intentos o capturas cuando aporte recuperación futura.
-
-`KUNDERA-BRIDGE` no está registrado actualmente como directiva formal recuperable en los archivos de BRAIN revisados durante esta sesión.
-
-Regla:
-- no debe documentarse ni definirse por inferencia si su sentido fue conversado en otra instancia y no quedó persistido;
-- antes de registrarlo, se debe reconstruir su significado desde evidencia persistente o desde una definición explícita del usuario;
-- mientras no se reconstruya, no debe presentarse como capacidad activa.
+- registrarla como criterio editorial si afecta escritura de futuros libros técnicos;
+- convertirla en práctica de programación general si aplica fuera del libro.
 
 ## Pendiente
 
