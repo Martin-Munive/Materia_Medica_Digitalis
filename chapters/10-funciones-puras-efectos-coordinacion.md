@@ -272,7 +272,7 @@ assert calcular_y_clasificar_imc(70, 1.75)["categoria"] == "normal"
 
 # Borde: el umbral 25 separa "normal" de "sobrepeso".
 assert calcular_y_clasificar_imc(100, 2.0)["categoria"] == "sobrepeso"  # imc = 25.0
-assert calcular_y_clasificar_imc(97.5, 2.0)["categoria"] == "normal"    # imc = 24.38
+assert calcular_y_clasificar_imc(97.5, 2.0)["categoria"] == "normal"    # imc = 24.375
 
 # El plan de la coordinación se prueba sin ejecutar ningún efecto.
 plan = coordinar_registro_imc(70, 1.75)

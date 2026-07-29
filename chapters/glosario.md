@@ -149,3 +149,15 @@ Cualquier interacción de una función con el mundo exterior: leer entrada, impr
 ## Coordinación de procesos
 
 Función pura que, en lugar de ejecutar efectos, construye la descripción de lo que debe ocurrir —el plan: qué mostrar, qué registrar, qué notificar— para que un ejecutor delgado lo lleve a cabo. Separa decidir de hacer.
+
+## Prueba (test)
+
+Declaración ejecutable de una propiedad que un procedimiento debe cumplir. Una prueba que no declara propiedad recorre el código sin verificar nada; puede mostrar la presencia de defectos, nunca su ausencia.
+
+## Propiedad (de una prueba)
+
+Afirmación general sobre la relación entre entradas y salidas de un procedimiento, en contraste con un caso concreto. Ejemplos: la frontera de un umbral, la conservación de la ausencia de dato, la monotonicidad de una regla.
+
+## Reproducibilidad
+
+Propiedad de un procedimiento que produce la misma salida ante la misma entrada. Es la primera propiedad que conviene verificar, porque sin ella no existe cálculo estable que probar.
