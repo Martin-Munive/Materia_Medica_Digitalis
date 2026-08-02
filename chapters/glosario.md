@@ -62,6 +62,10 @@ Bloque reutilizable de código que recibe entradas, ejecuta una operación y pue
 
 Promesa operacional de una función, regla o componente: qué entradas espera, qué salida entrega, qué casos cubre y qué límites no debe cruzar.
 
+## Código
+
+Identificador estable asignado a un concepto, observación, procedimiento, documento o categoría dentro de un sistema definido. Debe conservar sistema y versión para ser trazable.
+
 ## Docstring
 
 Texto interno de documentación ubicado al inicio de una función, clase o módulo en Python. Sirve para explicar propósito, contrato y límites de uso.
@@ -81,6 +85,10 @@ Camino de ejecución posible dentro de un condicional. Una rama responsable debe
 ## Modelo
 
 Representación simplificada de un fenómeno. Un modelo decide qué aspectos del mundo conserva, cuáles omite y qué relaciones considera relevantes.
+
+## Normalización
+
+Transformación técnica que prepara un valor para comparación o validación, como convertir texto a minúsculas, controlar espacios o remover acentos. No equivale por sí sola a interpretación semántica.
 
 ## Representación
 
@@ -146,6 +154,10 @@ Propiedad de un sistema que limita la propagación del error, lo hace trazable y
 
 Contrato técnico y semántico que define cómo se representa un valor, qué operaciones admite, qué errores debe rechazar y qué significado conserva para una decisión posterior.
 
+## Texto libre
+
+Texto narrativo no restringido por un conjunto cerrado de valores. Conserva matices, pero no promete uniformidad para contar, filtrar, comparar o decidir.
+
 ## Unidad
 
 Referencia que da escala y significado operacional a una medición. Sin unidad explícita, un número puede ser ejecutable y aun así ser ambiguo o incompatible con la decisión.
@@ -157,6 +169,10 @@ Procedimiento que revisa si un dato cumple el contrato mínimo requerido antes d
 ## Valor centinela
 
 Valor usado para representar un estado especial, como ausencia o no disponibilidad. Es peligroso cuando puede confundirse con un valor real del dominio.
+
+## Vocabulario controlado
+
+Conjunto explícito de valores permitidos, cada uno con significado definido y, cuando corresponde, código estable. Reduce ambigüedad sin reemplazar necesariamente el texto narrativo original.
 
 ## Función pura
 

@@ -26,6 +26,7 @@ parts:
       - file: chapters/12-tipos-datos-problemas-biomedicos
         sections:
           - file: chapters/13-numeros-unidades-mediciones
+          - file: chapters/14-texto-libre-codigos-vocabularios
   - caption: Apéndices
     chapters:
       - file: chapters/apendice-a-entorno
