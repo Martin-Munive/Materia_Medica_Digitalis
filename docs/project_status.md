@@ -49,6 +49,11 @@ El proyecto también cumple una función formativa interna: el libro se construy
   - `Condicionales como arquitectura de decisión`.
   - `Bucles como control de procesos`.
   - `Funciones como encapsulamiento de criterio`.
+  - `Errores, excepciones y seguridad del cálculo`.
+  - `Funciones puras, efectos y coordinación de procesos`.
+  - `Pruebas y verificación mínima`.
+- Capítulo contenedor de la Unidad II: `Tipos de datos para problemas biomédicos`.
+- Primera sección de la Unidad II: `Números, unidades y mediciones`.
 - Apéndice A: entorno de trabajo.
 - Glosario vivo.
 
@@ -77,6 +82,10 @@ La cifra global sigue siendo baja porque la obra completa apunta más allá de u
 ## Avance reciente
 
 Cambios incorporados en el ciclo actual:
+
+- Apertura de la Unidad II con el capítulo contenedor `Tipos de datos para problemas biomédicos`. Eje: los tipos de datos como promesas operacionales y decisiones de representación, no como lista sintáctica de Python.
+- Creación de la sección `Números, unidades y mediciones`. Eje: una medición biomédica como valor numérico acompañado por unidad, regla de validez y significado de dominio; separación entre valor imposible, rango de referencia, alerta y dato faltante; patrón mínimo `tipo + validador`; ejemplo pedagógico de dosis por peso. Ejemplos de código verificados antes del commit.
+- Actualización de `_toc.yml` y del glosario con `Medición`, `Tipo de dato`, `Unidad`, `Validador` y `Valor centinela`.
 
 - Creación de la sección `Pruebas y verificación mínima` (sec. 11 dentro del cap. 01), con la que se cierra la Unidad I. Eje: la prueba como declaración ejecutable de una propiedad; patrón de cuatro propiedades (caso documentado, dato faltante, frontera, reproducibilidad); propiedad de monotonicidad de colas sobre la regla de alerta de laboratorio; analogía explícita con la interpretación clínica de pruebas diagnósticas negativas. Ejemplos verificados por ejecución antes del cierre.
 - Actualización de `_toc.yml` y del glosario con `Prueba (test)`, `Propiedad (de una prueba)` y `Reproducibilidad`.
@@ -135,15 +144,16 @@ Límite:
 
 Prioridad siguiente:
 
-1. Revisar visualmente la portada rediseñada en navegador.
-2. Ajustar detalles visuales si aparecen problemas de proporción o legibilidad.
-3. Continuar la siguiente unidad: Python como arquitectura de decisión, aplicando la línea transversal `CODE CLEAN`.
+1. Continuar con la siguiente sección de la Unidad II: texto libre, códigos y vocabularios controlados.
+2. Mantener el patrón `tipo + validador` y la línea transversal `CODE CLEAN`.
+3. Revisar visualmente la nueva sección HTML si se va a publicar en GitHub Pages en este ciclo.
 
 Siguientes secciones candidatas:
 
-- Funciones puras, efectos y coordinación de procesos.
-- Errores, excepciones y seguridad del cálculo.
-- Pruebas y verificación mínima.
+- Texto libre, códigos y vocabularios controlados.
+- Booleanos, estados e incertidumbre.
+- Fechas, tiempos, intervalos y granularidad clínica.
+- Ausencia, centinelas y datos faltantes.
 
 ## Riesgos activos
 
@@ -156,7 +166,7 @@ Siguientes secciones candidatas:
 
 Retomar por:
 
-1. `docs/cover_design_brief.md`.
-2. Continuar con la sección posterior a `chapters/08-funciones-encapsulamiento-criterio.md`.
+1. `chapters/13-numeros-unidades-mediciones.md`.
+2. Continuar con la sección posterior: texto libre, códigos y vocabularios controlados.
 3. Mantener la línea `CODE CLEAN`: versión frágil, crítica, versión mejorada, salida esperada y prueba mínima.
 4. Build local con `.\venv\Scripts\jupyter-book.exe build .`.

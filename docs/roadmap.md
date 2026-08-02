@@ -59,15 +59,39 @@ Secciones iniciales:
 - Bucles como control de procesos.
 - Funciones como encapsulamiento de criterio.
 - Errores, excepciones y seguridad del cálculo.
+- Funciones puras, efectos y coordinación de procesos.
+- Pruebas y verificación mínima.
 
 Criterio:
 - cada tema debe tener definición, intuición, límites, ejemplos, código, consecuencias y preguntas de comprensión profunda.
 
-Estado 2026-05-15:
-- la primera unidad conceptual ya incluye las cinco primeras secciones: algoritmo, pasos, variables, estados/umbrales y excepciones/trazabilidad;
-- los ejemplos de código existentes fueron corregidos para incluir comentarios y salidas esperadas;
-- se inició el bloque `Python como arquitectura de decisión` con `Condicionales como arquitectura de decisión`, aplicando `CODE CLEAN` como línea transversal: versión ingenua, crítica técnica, versión mejorada, salida esperada, prueba mínima y lección transferible;
-- el siguiente bloque debe continuar con bucles, funciones y verificación.
+Estado 2026-08-01:
+- la primera unidad conceptual quedó cerrada con once secciones;
+- los ejemplos de código existentes fueron corregidos para incluir comentarios, salidas esperadas y aclaración cuando no imprimen salida visible;
+- la línea `CODE CLEAN` queda activa como disciplina transversal: versión ingenua, crítica técnica, versión mejorada, salida esperada, prueba mínima y lección transferible;
+- la Unidad II quedó iniciada con `Tipos de datos para problemas biomédicos` y la primera sección `Números, unidades y mediciones`;
+- el siguiente bloque debe continuar con texto libre, códigos y vocabularios controlados.
+
+## Fase 2B. Tipos de datos para problemas biomédicos
+
+Objetivo:
+Estudiar los tipos de datos como decisiones de representación biomédica, no como una lista de tipos de Python.
+
+Decisión estructural:
+Cada sección debe sostener el patrón `tipo + validador`: primero definir qué promete el dato, luego mostrar cómo una representación ingenua permite errores silenciosos, y finalmente construir una representación mínima verificable.
+
+Secciones iniciales:
+- Números, unidades y mediciones.
+- Texto libre, códigos y vocabularios controlados.
+- Booleanos, estados e incertidumbre.
+- Fechas, tiempos, intervalos y granularidad clínica.
+- Ausencia, centinelas y datos faltantes.
+- Listas, diccionarios y registros.
+
+Criterio:
+- el tipo técnico de Python debe conectarse siempre con el contrato de dominio;
+- los ejemplos biomédicos deben declarar sus límites y no presentarse como escalas clínicas validadas;
+- los datos deben conservar unidad, razón, estado o trazabilidad cuando la decisión posterior lo necesite.
 
 ## Fase 3. Algoritmos clásicos con lectura biomédica
 

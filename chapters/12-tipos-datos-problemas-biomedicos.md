@@ -1,0 +1,81 @@
+# Tipos de datos para problemas biomédicos
+
+La primera unidad construyó una idea: programar no es escribir instrucciones sueltas, sino formalizar decisiones. Un algoritmo responsable necesita entradas, reglas, excepciones, funciones, coordinación y pruebas. Pero antes de decidir algo con un dato hay una pregunta más básica: ¿qué promete ese dato?
+
+Un peso no es simplemente un número. Una fecha no es simplemente texto. Un resultado ausente no es cero. Una categoría diagnóstica no es una frase decorativa. Cada tipo de dato conserva unas operaciones posibles y prohíbe otras. Cuando esa promesa se rompe, el error parece pequeño: una comparación funciona, una suma ejecuta, una cadena se guarda. El daño aparece después, cuando el programa toma una decisión clínicamente absurda con una representación que nunca debió aceptar.
+
+Esta unidad estudia los tipos de datos como decisiones de representación. Python ofrece números, textos, booleanos, fechas, listas, diccionarios y estructuras más complejas. El libro no los tratará como una lista de métodos para memorizar, sino como respuestas a preguntas biomédicas concretas:
+
+- qué tipo conserva una medición sin perder su unidad;
+- cómo distinguir ausencia de normalidad;
+- cuándo una categoría debe ser texto y cuándo debe ser vocabulario cerrado;
+- cómo representar tiempo clínico, intervalos y seguimiento;
+- cuándo una lista alcanza y cuándo se necesita una tabla;
+- cómo evitar que una estructura flexible oculte errores de dominio.
+
+## La tesis de la unidad
+
+<div class="definition-block">
+<strong>Tesis de trabajo.</strong><br />
+Un tipo de dato es una promesa operacional: define qué representa un valor, qué operaciones tienen sentido sobre él, qué errores debe rechazar y qué información debe conservar para que una decisión posterior sea trazable.
+</div>
+
+Esta definición desplaza el foco. La pregunta no será "¿qué tipo de Python uso?", sino:
+
+```text
+¿Qué representación protege mejor el significado biomédico del fenómeno?
+```
+
+El tipo equivocado no siempre falla rápido. A veces hace algo peor: permite que el programa siga. Un resultado de potasio guardado como texto se puede imprimir, concatenar, ordenar alfabéticamente y exportar. Todo eso puede funcionar mientras se vuelve imposible comparar con seguridad si `6.2` es mayor que `5.1`. Un dato faltante representado como `0` permite sumar y promediar, pero convierte ausencia en fisiología.
+
+## De la sintaxis al contrato
+
+Python permite descubrir el tipo de un valor con `type()`. Esa operación sirve, pero no basta.
+
+```python
+valor = 6.2
+print(type(valor))
+```
+
+Salida esperada:
+
+```text
+<class 'float'>
+```
+
+Saber que `6.2` es un `float` informa cómo lo manipula Python. No informa qué mide, en qué unidad, de qué paciente proviene, si fue validado, si está dentro de rango o si es comparable con otro valor. En dominios biomédicos, el tipo técnico es el piso; el contrato de dominio es el edificio.
+
+Por eso esta unidad irá de lo simple a lo responsable:
+
+1. **Números, unidades y mediciones.** Un número sin unidad puede ser ejecutable y aun así ser ambiguo.
+2. **Texto y vocabularios.** No todo texto libre debe circular como texto libre.
+3. **Booleanos y estados.** Verdadero/falso rara vez alcanza para describir incertidumbre clínica.
+4. **Fechas, tiempos e intervalos.** El tiempo clínico tiene granularidad, zona, duración y orden.
+5. **Ausencia y datos faltantes.** `None`, centinelas y estructuras explícitas.
+6. **Listas, diccionarios y registros.** Cómo agrupar observaciones sin perder significado.
+7. **Tipo + validador.** El patrón mínimo para que una representación no mienta.
+
+## Mapa de decisión
+
+| Pregunta biomédica | Representación inicial | Riesgo si se elige mal |
+|---|---|---|
+| ¿Cuánto mide algo? | número + unidad explícita | comparar valores incompatibles |
+| ¿Qué categoría tiene? | vocabulario cerrado | aceptar sinónimos, errores o ambigüedad |
+| ¿Está presente? | estado explícito | confundir ausencia con normalidad |
+| ¿Cuándo ocurrió? | fecha/tiempo | ordenar mal eventos o mezclar granularidades |
+| ¿Qué observaciones pertenecen juntas? | registro/diccionario | separar dato, contexto y razón |
+| ¿Qué secuencia se recorre? | lista | perder índice, orden o repetición |
+| ¿Qué regla valida el valor? | tipo + validador | aceptar valores imposibles con sintaxis correcta |
+
+El mapa no es definitivo. Es una brújula para no empezar por la sintaxis. Un dato biomédico entra a un programa con historia: alguien lo midió, lo registró, lo transformó, lo omitió o lo codificó. El tipo debe conservar la parte de esa historia que será necesaria para decidir.
+
+## Regla de lectura
+
+En esta unidad los ejemplos seguirán siendo miniaturas pedagógicas. No son escalas clínicas validadas ni motores asistenciales. Su función es entrenar una sensibilidad técnica: aprender a ver cuándo un dato está mal representado incluso si Python lo acepta.
+
+El objetivo no es usar tipos más complicados. Es usar el tipo mínimo que preserve la promesa del dato.
+
+## Siguiente paso
+
+El primer caso será el más común: números. En medicina y ciencias de la vida, casi todo parece empezar como número —peso, dosis, concentración, presión, edad, tiempo, temperatura—. Pero un número desnudo no sabe qué representa. La siguiente sección muestra por qué una medición necesita unidad, rango, precisión y validación antes de entrar en una decisión.
+

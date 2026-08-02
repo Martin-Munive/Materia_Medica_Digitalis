@@ -34,6 +34,10 @@ Representación registrada de una observación, medición, evento, categoría o 
 
 Valor ausente, no medido, no registrado o no disponible. En dominios biomédicos no debe tratarse silenciosamente como normalidad.
 
+## Medición
+
+Valor observado acompañado por unidad, contexto y regla de validez. En dominios biomédicos, una medición no debe reducirse al número que la representa.
+
 ## Decisión
 
 Elección de una acción, clasificación, interpretación o transformación a partir de datos, reglas, contexto y objetivos.
@@ -137,6 +141,22 @@ Conjunto de prácticas que capturan, traducen y registran excepciones para evita
 ## Seguridad del cálculo
 
 Propiedad de un sistema que limita la propagación del error, lo hace trazable y evita que una salida inválida se confunda con una salida válida. No se reduce a la corrección sintáctica del código.
+
+## Tipo de dato
+
+Contrato técnico y semántico que define cómo se representa un valor, qué operaciones admite, qué errores debe rechazar y qué significado conserva para una decisión posterior.
+
+## Unidad
+
+Referencia que da escala y significado operacional a una medición. Sin unidad explícita, un número puede ser ejecutable y aun así ser ambiguo o incompatible con la decisión.
+
+## Validador
+
+Procedimiento que revisa si un dato cumple el contrato mínimo requerido antes de entrar a una transformación, clasificación o decisión.
+
+## Valor centinela
+
+Valor usado para representar un estado especial, como ausencia o no disponibilidad. Es peligroso cuando puede confundirse con un valor real del dominio.
 
 ## Función pura
 

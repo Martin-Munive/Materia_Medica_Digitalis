@@ -21,6 +21,11 @@ parts:
           - file: chapters/09-errores-excepciones-seguridad-calculo
           - file: chapters/10-funciones-puras-efectos-coordinacion
           - file: chapters/11-pruebas-verificacion-minima
+  - caption: II. Tipos de datos para problemas biomédicos
+    chapters:
+      - file: chapters/12-tipos-datos-problemas-biomedicos
+        sections:
+          - file: chapters/13-numeros-unidades-mediciones
   - caption: Apéndices
     chapters:
       - file: chapters/apendice-a-entorno
