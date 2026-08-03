@@ -180,6 +180,10 @@ En bioinformática, un alineamiento de secuencias no es una comparación intuiti
 
 Por eso esta sección no es un tema menor de introducción. Es la gramática inicial de todo procedimiento científico computable.
 
+## Límites de esta miniatura
+
+Pensar en pasos no garantiza que el procedimiento sea clínicamente suficiente. Una secuencia puede estar ordenada y aun así omitir datos relevantes, excepciones, sesgos o consecuencias. La utilidad de esta sección es entrenar descomposición y trazabilidad, no reemplazar validación de dominio.
+
 ## Evaluar si entendiste
 
 Estas preguntas no buscan memoria. Buscan criterio. Están ordenadas de mayor a menor dificultad.

@@ -13,6 +13,13 @@ pip install -r requirements.txt
 jupyter-book build .
 ```
 
+Salida esperada:
+
+```text
+El primer comando instala las dependencias declaradas.
+El segundo comando construye el sitio HTML del libro.
+```
+
 La salida HTML se genera en:
 
 ```text

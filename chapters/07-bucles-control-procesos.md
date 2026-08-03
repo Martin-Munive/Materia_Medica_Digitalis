@@ -365,6 +365,10 @@ La pregunta madura es:
 ¿qué estado cambia en cada iteración y qué evidencia necesito conservar?
 ```
 
+## Límites de esta miniatura
+
+Los recorridos mostrados son deliberadamente pequeños. En datos reales aparecen volumen, calidad variable, pérdidas, duplicados, tiempos irregulares y costos computacionales. La sección enseña control de proceso; las decisiones poblacionales o clínicas requieren validación y análisis de sesgo.
+
 ## Evaluar si entendiste
 
 1. ¿Por qué un bucle no debe entenderse solo como repetición?
@@ -401,4 +405,3 @@ La pregunta madura es:
 ## Siguiente paso
 
 El siguiente tema natural son las funciones. Si los bucles controlan procesos repetidos, las funciones permiten encapsular criterios, nombrar operaciones, probarlas y reutilizarlas sin duplicar lógica.
-

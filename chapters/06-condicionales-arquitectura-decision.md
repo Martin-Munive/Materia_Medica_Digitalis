@@ -241,6 +241,10 @@ La pregunta se vuelve más profunda:
 
 > ¿Qué condiciones gobiernan el paso entre datos, evidencia, acción y responsabilidad?
 
+## Límites de esta miniatura
+
+Los condicionales permiten expresar rutas de decisión, pero no vuelven correcta una regla de dominio. Una arquitectura `if/elif/else` puede ser legible y aun así representar mal el fenómeno. La sección enseña estructura de decisión; la validez médica exige fuentes, contexto y pruebas posteriores.
+
 ## Evaluar si entendiste
 
 1. ¿Por qué `if saturacion and saturacion < 90` puede producir una salida peligrosa cuando `saturacion` vale `None`?

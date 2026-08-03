@@ -304,6 +304,10 @@ La pregunta madura no es "¿cómo evito que el programa falle?". Es:
 
 Diseñar el error es diseñar el sistema.
 
+## Límites de esta miniatura
+
+Capturar errores técnicos no cubre todos los riesgos de un sistema biomédico. También importan errores de medición, selección, interfaz, interoperabilidad, privacidad y uso humano. La sección enseña seguridad del cálculo; la seguridad clínica exige validación sociotécnica más amplia.
+
 ## Evaluar si entendiste
 
 1. ¿Por qué un programa que ejecuta sin fallar puede aun así producir un resultado inseguro?

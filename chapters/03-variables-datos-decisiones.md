@@ -240,6 +240,10 @@ La pregunta será siempre la misma:
 
 > ¿Qué representación conserva la estructura relevante del fenómeno sin volver imposible el análisis?
 
+## Límites de esta miniatura
+
+Las variables usadas aquí son simplificaciones pedagógicas. En sistemas reales, un dato biomédico necesita fuente, unidad, fecha, contexto, método de medición y límites de interpretación. La sección enseña el acto de nombrar y representar, no un esquema completo de historia clínica.
+
 ## Evaluar si entendiste
 
 Estas preguntas buscan criterio, no memoria. Están ordenadas de mayor a menor dificultad.

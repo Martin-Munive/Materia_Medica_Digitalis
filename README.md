@@ -18,7 +18,7 @@ Analista y programador de software
 
 </div>
 
-> Libro web técnico-científico para estudiar algoritmos desde problemas biomédicos: datos clínicos, decisiones, riesgo, estructuras de información, seguimiento de pacientes y sistemas computacionales para ciencias de la vida.
+> Obra médico-computacional para estudiar algoritmos, datos y estructuras de decisión desde problemas biomédicos: representación, incertidumbre, trazabilidad, verificación y responsabilidad técnica en medicina y ciencias de la vida.
 
 ## Leer el libro
 
@@ -29,46 +29,62 @@ Analista y programador de software
 
 ## Qué es
 
-`Materia Médica Digitalis` es un libro web sobre algoritmos, estructuras de datos y pensamiento computacional aplicado a medicina y ciencias de la vida.
+`Materia Médica Digitalis` es un libro web técnico-científico sobre algoritmos, estructuras de datos y pensamiento computacional aplicado a medicina y ciencias de la vida.
 
-No es una colección de apuntes ni un curso rápido de sintaxis. La obra usa Python como lenguaje de trabajo, pero su objetivo central es enseñar a razonar con algoritmos: traducir un fenómeno biomédico a datos, reglas, estados, excepciones, estructuras verificables y decisiones responsables.
+No es una colección de apuntes, un curso rápido de sintaxis ni un catálogo de ejemplos médicos programados. La obra usa Python como lenguaje de trabajo, pero su objetivo central es formar pensamiento algorítmico biomédico: traducir fenómenos clínicos, biológicos y científicos a datos, representaciones, reglas, estados, excepciones, estructuras verificables y decisiones responsables.
+
+El libro parte de una idea: en medicina y ciencias de la vida, programar no debería significar automatizar superficialmente. Debería significar hacer explícitos los supuestos que gobiernan una decisión.
 
 El libro se ubica en la intersección entre:
 
 - medicina clínica y razonamiento bajo incertidumbre;
-- programación en Python como instrumento de pensamiento;
+- programación en Python como instrumento de razonamiento ejecutable;
 - estructuras de datos, algoritmos clásicos y complejidad;
 - ciencia de datos biomédicos, bioinformática, genética computacional y medicina digital.
 
 ## Por qué importa
 
-La medicina contemporánea y las ciencias de la vida producen datos, señales, texto, imágenes, secuencias y decisiones. Sin pensamiento algorítmico, esos materiales se convierten en listas dispersas, automatizaciones frágiles o modelos que parecen inteligentes pero ocultan sus supuestos.
+La medicina contemporánea y las ciencias de la vida producen datos, señales, texto, imágenes, secuencias y decisiones. Sin pensamiento algorítmico, esos materiales se convierten en listas dispersas, automatizaciones frágiles o modelos opacos que ocultan sus supuestos.
 
 Este libro parte de una idea simple:
 
 > Un algoritmo no es una receta vacía. Es una forma de hacer explícita una decisión.
 
-En un dominio biomédico, esa decisión rara vez vive sola. Aparece dentro de datos incompletos, umbrales, sesgos, trazabilidad, consecuencias clínicas, límites regulatorios y responsabilidad técnica.
+En un dominio biomédico, esa decisión rara vez vive sola. Aparece dentro de datos incompletos, unidades, umbrales, sesgos, trazabilidad, consecuencias clínicas, límites regulatorios y responsabilidad técnica.
+
+La intención de la obra es construir una arquitectura intelectual entre medicina, ciencias de la vida y computación. Los ejemplos simples son puntos de entrada, no el destino final.
 
 ## Qué aprenderás
 
 - Formalizar decisiones biomédicas como procedimientos verificables.
-- Representar datos, estados, reglas, condiciones, excepciones y trazabilidad.
+- Representar datos, unidades, estados, reglas, condiciones, excepciones y trazabilidad.
 - Usar Python para construir ejemplos claros, ejecutables y auditables.
 - Entender algoritmos clásicos con lectura biomédica, no como ejercicios genéricos.
 - Conectar fundamentos con estructuras de datos, análisis cuantitativo, bioinformática, genética computacional, neurología computacional y medicina de precisión.
-- Reconocer por qué un algoritmo correcto puede ser clínicamente insuficiente si ignora contexto, sesgo o seguridad.
+- Reconocer por qué un algoritmo computacionalmente correcto puede ser biomédicamente insuficiente si ignora contexto, sesgo, incertidumbre o seguridad.
 
 ## Para quién es
 
 Este libro está escrito para:
 
-- estudiantes y profesionales de medicina que quieren entrar a programación, ciencia de datos o inteligencia artificial;
+- estudiantes y profesionales de medicina que quieren entrar a programación, ciencia de datos o medicina digital;
 - investigadores en ciencias de la vida que necesitan automatizar análisis, ordenar datos y construir herramientas reproducibles;
 - programadores interesados en aplicaciones biomédicas con sentido clínico y científico;
 - lectores que quieren aprender algoritmos desde casos concretos, no desde ejemplos abstractos.
 
 No se asume formación avanzada en ciencias de la computación. Sí se espera curiosidad, paciencia y voluntad de pensar con precisión.
+
+## Criterio de calidad
+
+La obra busca sostener una exigencia clara:
+
+- explicar desde cero sin infantilizar al lector;
+- mantener progresión acumulativa entre capítulos;
+- usar código ejecutable, comentado, verificable y con salida esperada;
+- distinguir dato, interpretación, decisión, razón y límite;
+- presentar los ejemplos biomédicos como miniaturas pedagógicas, no como herramientas clínicas validadas;
+- acompañar las afirmaciones fuertes con bibliografía proporcional;
+- conectar fundamentos con frontera sin saltos retóricos vacíos.
 
 ## Arquitectura del libro
 
@@ -99,15 +115,17 @@ Implementado:
 - Guía de lectura.
 - Presaberes mínimos.
 - Primera unidad conceptual: `El lenguaje de las decisiones`.
-- Secciones publicables sobre algoritmos, pasos, variables, estados, excepciones, condicionales, bucles, funciones y seguridad del cálculo.
+- Secciones publicables sobre algoritmos, pasos, variables, estados, excepciones, condicionales, bucles, funciones, seguridad del cálculo, funciones puras y pruebas mínimas.
+- Segunda unidad iniciada: `Tipos de datos para problemas biomédicos`.
+- Secciones publicables sobre números, unidades, mediciones, texto libre, códigos y vocabularios controlados.
 - Glosario vivo.
 - Apéndice de entorno.
-- Documentación interna de roadmap, auditoría editorial, estrategia de código limpio y estructura heredada.
+- Documentación editorial y técnica de control del proyecto.
 
 Siguiente dirección editorial:
 
-- cerrar la primera unidad con funciones puras, efectos, coordinación de procesos, pruebas y verificación mínima;
-- abrir la segunda unidad sobre tipos de datos para problemas biomédicos;
+- continuar la segunda unidad con booleanos, estados e incertidumbre;
+- desarrollar fechas, tiempos, intervalos, ausencia, centinelas, listas, diccionarios y registros;
 - mantener la línea transversal `CODE CLEAN`: versión ingenua, crítica técnica, versión mejorada, salida esperada y prueba mínima.
 
 ## Instalación local
@@ -146,7 +164,7 @@ chapters/
   -> contenido publicable del libro
 
 docs/
-  -> documentación editorial interna del proyecto
+  -> documentación editorial y técnica de control del proyecto
 
 _toc.yml
   -> navegación del libro web
@@ -165,23 +183,23 @@ _static/custom.css
 - Cada tema importante debe conectar definición, intuición, límites, código, verificación y puente hacia frontera.
 - La bibliografía y las fuentes sirven para sostener afirmaciones, no para transferir texto al libro.
 - El contenido publicable debe mantener voz propia, trazabilidad conceptual y responsabilidad técnica.
+- Los ejemplos simples deben funcionar como escalones hacia algoritmos, datos biomédicos, bioinformática, genética computacional, señales, medicina de precisión y sistemas responsables.
 
 ## Límites
 
 - Este libro no reemplaza juicio clínico, guías médicas, validación institucional ni revisión por especialistas.
 - Los ejemplos médicos son educativos y no deben usarse como herramientas asistenciales.
-- El repositorio público no debe mezclar documentación interna de planeación, notas de proceso ni material no publicable dentro del libro.
+- El repositorio público debe separar contenido publicable, documentación editorial sobria y material privado de planeación o investigación.
 - Las fuentes privadas o protegidas solo pueden orientar estudio; no deben copiarse ni parafrasearse de forma cercana.
 
 ## Roadmap público
 
-1. Cerrar la unidad I con funciones puras, efectos, coordinación y verificación mínima.
-2. Abrir la unidad II con tipos de datos para problemas biomédicos.
-3. Construir capítulos sobre listas, diccionarios, tablas simples, limpieza y validación.
-4. Reintroducir complejidad, estructuras de datos y pruebas desde la nueva arquitectura editorial.
-5. Avanzar hacia algoritmos clásicos con casos biomédicos concretos.
-6. Conectar datos clínicos, bioinformática, genética computacional, señales, texto e imagen biomédica.
-7. Consolidar la progresión hacia sistemas responsables, frontera científica y medicina digital.
+1. Completar la unidad II sobre tipos de datos para problemas biomédicos.
+2. Construir capítulos sobre listas, diccionarios, registros, tablas simples, limpieza y validación.
+3. Reintroducir complejidad, estructuras de datos y pruebas desde la nueva arquitectura editorial.
+4. Avanzar hacia algoritmos clásicos con casos biomédicos concretos.
+5. Conectar datos clínicos, bioinformática, genética computacional, señales, texto e imagen biomédica.
+6. Consolidar la progresión hacia sistemas responsables, frontera científica y medicina digital.
 
 ## Autor
 

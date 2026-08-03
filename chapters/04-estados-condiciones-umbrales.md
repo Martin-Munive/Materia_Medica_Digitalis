@@ -250,11 +250,15 @@ Consenso operativo: automatizar transiciones simples y verificables; escalar tra
 
 Estados, condiciones y umbrales no pertenecen solo a ejemplos introductorios.
 
-En modelos de enfermedad, un paciente puede moverse entre estados de susceptibilidad, infección, recuperación o recaída. En señales fisiológicas, un algoritmo puede detectar estados de sueño, vigilia, crisis, artefacto o ritmo anormal. En genética computacional, una variante puede pasar por estados de detección, anotación, filtrado, clasificación e interpretación. En sistemas de inteligencia artificial médica, un caso puede estar dentro o fuera de distribución, con confianza suficiente o con necesidad de revisión.
+En modelos de enfermedad, un paciente puede moverse entre estados de susceptibilidad, infección, recuperación o recaída. En señales fisiológicas, un algoritmo puede detectar estados de sueño, vigilia, crisis, artefacto o ritmo anormal. En genética computacional, una variante puede pasar por estados de detección, anotación, filtrado, clasificación e interpretación. En sistemas biomédicos computacionales, un caso puede estar dentro o fuera de distribución, con confianza suficiente o con necesidad de revisión.
 
 La pregunta madura no será "¿qué if escribo?". Será:
 
 > ¿Qué estados existen en este problema, qué condiciones autorizan pasar de uno a otro y qué consecuencias tiene equivocarse?
+
+## Límites de esta miniatura
+
+Los umbrales usados en ejemplos pedagógicos no deben leerse como recomendaciones clínicas. Un umbral real depende de población, contexto, método de medición, riesgo aceptable y validación. Aquí importan la forma de representar estados y transiciones, no la autoridad médica del número elegido.
 
 ## Evaluar si entendiste
 

@@ -1,6 +1,6 @@
 # Qué es un algoritmo
 
-La palabra algoritmo suele presentarse con una definición demasiado breve: una serie finita de pasos para resolver un problema. La frase no es falsa, pero es insuficiente. Sirve como puerta de entrada; no sirve como concepto rector para medicina, ciencia de datos, inteligencia artificial, bioinformática o software clínico.
+La palabra algoritmo suele presentarse con una definición demasiado breve: una serie finita de pasos para resolver un problema. La frase no es falsa, pero es insuficiente. Sirve como puerta de entrada; no sirve como concepto rector para medicina, ciencia de datos, bioinformática, medicina digital o software clínico.
 
 En un dominio trivial, un algoritmo puede parecer una receta. En un dominio serio, un algoritmo es una arquitectura de decisión: define qué información importa, cómo se representa, qué transformaciones son válidas, qué condiciones cambian el curso de acción, qué errores deben anticiparse y cuándo el procedimiento debe detenerse.
 
@@ -205,6 +205,10 @@ La misma idea de algoritmo que aparece en una regla de fiebre reaparece, con may
 En bioinformática, el alineamiento de secuencias usa programación dinámica para comparar ADN, ARN o proteínas. En genómica moderna, los volúmenes de datos exigen índices, grafos, modelos probabilísticos y aprendizaje automático. En neurología computacional, las señales y redes cerebrales requieren representaciones temporales, gráficas y dinámicas. En medicina de precisión, algoritmos y modelos convierten datos moleculares, clínicos e imagenológicos en hipótesis de estratificación y tratamiento.
 
 La escalera del libro será esta: primero entenderemos qué es una decisión formalizable; después aprenderemos estructuras y algoritmos clásicos; luego veremos cómo esas herramientas se transforman cuando el objeto ya no es un número, sino un sistema vivo.
+
+## Límites de esta miniatura
+
+Los ejemplos de esta sección no son modelos clínicos ni sistemas de decisión asistencial. Sirven para distinguir algoritmo, programa, modelo y decisión. En capítulos posteriores, esa distinción deberá ampliarse con tipos de datos, validación, incertidumbre, pruebas y responsabilidad operacional.
 
 ## Evaluar si entendiste
 

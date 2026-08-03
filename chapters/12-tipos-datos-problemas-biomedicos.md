@@ -79,3 +79,9 @@ El objetivo no es usar tipos más complicados. Es usar el tipo mínimo que prese
 
 El primer caso será el más común: números. En medicina y ciencias de la vida, casi todo parece empezar como número —peso, dosis, concentración, presión, edad, tiempo, temperatura—. Pero un número desnudo no sabe qué representa. La siguiente sección muestra por qué una medición necesita unidad, rango, precisión y validación antes de entrar en una decisión.
 
+## Bibliografía y fuentes
+
+- Beaulieu-Jones, B. K., et al. (2018). Examining the use of real-world evidence in the regulatory process. *Clinical Pharmacology & Therapeutics, 104*(5), 843-852. <https://doi.org/10.1002/cpt.1226>
+- Hripcsak, G., & Albers, D. J. (2013). Next-generation phenotyping of electronic health records. *Journal of the American Medical Informatics Association, 20*(1), 117-121. <https://doi.org/10.1136/amiajnl-2012-001145>
+- Martin Fowler. (2018). *Refactoring* (2nd ed.). Addison-Wesley.
+- Wilkinson, M. D., et al. (2016). The FAIR Guiding Principles for scientific data management and stewardship. *Scientific Data, 3*, 160018. <https://doi.org/10.1038/sdata.2016.18>

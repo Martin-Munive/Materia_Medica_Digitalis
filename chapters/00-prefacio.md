@@ -6,7 +6,7 @@ No parte de la idea de que programar sea aprender una sintaxis. Parte de otra in
 
 En medicina, una decisión rara vez aparece aislada. Vive dentro de datos incompletos, incertidumbre, riesgo, tiempo, pacientes, poblaciones, umbrales y consecuencias. Por eso los algoritmos no son aquí una colección abstracta de técnicas. Son una forma de ordenar el pensamiento.
 
-Este libro usa Python porque es claro, poderoso y ampliamente usado en investigación, análisis de datos e inteligencia artificial. Pero Python no es el destino final. Es el instrumento.
+Este libro usa Python porque es claro, poderoso y ampliamente usado en investigación, análisis de datos y sistemas computacionales modernos. Pero Python no es el destino final. Es el instrumento.
 
 El destino es aprender a pensar con precisión.
 
@@ -14,7 +14,7 @@ El destino es aprender a pensar con precisión.
 
 Este libro está escrito para:
 
-- estudiantes y profesionales de medicina que quieren entrar a programación, datos o inteligencia artificial;
+- estudiantes y profesionales de medicina que quieren entrar a programación, datos o medicina digital;
 - investigadores en ciencias de la vida que necesitan automatizar tareas y razonar con datos;
 - programadores interesados en aplicaciones médicas con sentido clínico;
 - lectores que prefieren aprender algoritmos desde problemas concretos.

@@ -276,6 +276,10 @@ Cuando el libro avance hacia sistemas complejos, la pregunta será:
 
 > ¿Qué hace el algoritmo cuando no puede confiar plenamente en sus entradas, su modelo o su contexto?
 
+## Límites de esta miniatura
+
+La trazabilidad presentada aquí es mínima. Un sistema real requiere gobierno de privacidad, seguridad, auditoría institucional, control de versiones, gestión de acceso y validación del flujo clínico. La sección entrena el principio: una salida importante debe conservar razones y límites.
+
 ## Evaluar si entendiste
 
 Estas preguntas buscan criterio, no memoria. Están ordenadas de mayor a menor dificultad.
@@ -311,7 +315,7 @@ Estas preguntas buscan criterio, no memoria. Están ordenadas de mayor a menor d
 - Sittig, D. F., & Singh, H. (2010). A new sociotechnical model for studying health information technology in complex adaptive healthcare systems. *Quality & Safety in Health Care, 19*(Suppl. 3), i68-i74. <https://doi.org/10.1136/qshc.2010.042085>
 - Wilkinson, M. D., et al. (2016). The FAIR Guiding Principles for scientific data management and stewardship. *Scientific Data, 3*, 160018. <https://doi.org/10.1038/sdata.2016.18>
 
-## Cierre de la unidad
+## Siguiente paso
 
 Con esta sección queda completo el lenguaje inicial de las decisiones: algoritmo, pasos, variables, estados, condiciones, umbrales, excepciones, datos faltantes y trazabilidad.
 

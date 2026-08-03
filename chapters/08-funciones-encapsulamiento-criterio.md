@@ -362,6 +362,10 @@ La pregunta madura es:
 ¿qué criterio merece tener nombre, contrato y prueba?
 ```
 
+## Límites de esta miniatura
+
+Encapsular una regla en una función mejora claridad y prueba, pero no valida la regla. Una función limpia puede contener un supuesto pobre. La sección enseña contrato, parámetros, retorno y prueba mínima; la suficiencia biomédica depende de evidencia, población y seguimiento de errores.
+
 ## Evaluar si entendiste
 
 1. ¿Por qué una función no debe entenderse solo como una forma de ahorrar escritura?
