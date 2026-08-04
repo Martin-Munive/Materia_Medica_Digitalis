@@ -14,6 +14,10 @@ Variable o estructura que conserva información producida durante un recorrido. 
 
 Estructura de control que repite una operación bajo una regla de recorrido o permanencia. En este libro, un bucle también representa una forma de gobernar procesos y conservar estado.
 
+## Booleano
+
+Tipo de dato con dos valores posibles: verdadero o falso. Es útil para distinciones estrictamente binarias, pero puede ser insuficiente cuando un dato biomédico admite ausencia, incertidumbre, no evaluación o no aplicabilidad.
+
 ## Complejidad computacional
 
 Forma de estudiar cómo crece el costo de un algoritmo cuando aumenta el tamaño de la entrada. Ese costo puede medirse en tiempo, memoria, llamadas a disco, comunicaciones o energía.
@@ -45,6 +49,10 @@ Elección de una acción, clasificación, interpretación o transformación a pa
 ## Estado
 
 Representación discreta de la situación actual de un sistema, paciente, procedimiento o dato. Un estado permite saber qué se conoce, qué falta y qué transiciones son posibles.
+
+## Estado controlado
+
+Valor permitido dentro de un conjunto explícito de estados. Evita que condiciones como presente, ausente, desconocido, no evaluado o no aplicable se dispersen como textos o booleanos ambiguos.
 
 ## Estructura de datos
 
@@ -89,6 +97,10 @@ Representación simplificada de un fenómeno. Un modelo decide qué aspectos del
 ## Normalización
 
 Transformación técnica que prepara un valor para comparación o validación, como convertir texto a minúsculas, controlar espacios o remover acentos. No equivale por sí sola a interpretación semántica.
+
+## No aplicable
+
+Estado que indica que una pregunta, regla o campo no corresponde al caso evaluado. No debe usarse como sinónimo de dato faltante, desconocido o no diligenciado.
 
 ## Representación
 

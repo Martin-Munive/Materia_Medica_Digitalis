@@ -10,6 +10,8 @@ Este documento resume la definición actual de `Materia Médica Digitalis`, el a
 
 El proyecto no es un curso rápido de sintaxis ni una colección de apuntes. Es una arquitectura de aprendizaje para formar pensamiento algorítmico aplicado a medicina, ciencias de la vida, datos biomédicos, estructuras de información, algoritmos clásicos, bioinformática, genética computacional, neurología computacional y sistemas médico-computacionales responsables.
 
+La obra busca construir una arquitectura intelectual entre medicina, ciencias de la vida y computación: convertir fenómenos biomédicos complejos en representaciones formales, procedimientos verificables, decisiones trazables y límites declarados.
+
 ## Propósito editorial
 
 El libro busca que el lector aprenda a:
@@ -22,6 +24,8 @@ El libro busca que el lector aprenda a:
 - entender que automatizar una decisión en medicina exige responsabilidad técnica, clínica y epistemológica.
 
 El proyecto también cumple una función formativa interna: el libro se construye para que el autor aprenda primero, y para que ese aprendizaje pueda compartirse después con otros lectores. Por eso la creación del libro debe enseñar durante el proceso, no solo producir páginas publicables.
+
+La función formativa queda elevada a criterio editorial, pero no agota el espíritu público del libro. Una sección correcta pero aislada no basta. Cada entrega debe educar al autor, sostener la promesa pública del libro y avanzar la progresión hacia algoritmos, datos biomédicos, bioinformática, genética computacional, señales, neurología computacional, medicina de precisión y sistemas responsables.
 
 ## Estado actual verificado
 
@@ -55,10 +59,11 @@ El proyecto también cumple una función formativa interna: el libro se construy
 - Capítulo contenedor de la Unidad II: `Tipos de datos para problemas biomédicos`.
 - Primera sección de la Unidad II: `Números, unidades y mediciones`.
 - Segunda sección de la Unidad II: `Texto libre, códigos y vocabularios controlados`.
+- Tercera sección de la Unidad II: `Booleanos, estados e incertidumbre`.
 - Apéndice A: entorno de trabajo.
 - Glosario vivo.
 
-### Documentación interna existente
+### Documentación editorial existente
 
 - `docs/index.md`.
 - `docs/editorial_audit.md`.
@@ -85,6 +90,7 @@ La cifra global sigue siendo baja porque la obra completa apunta más allá de u
 Cambios incorporados en el ciclo actual:
 
 - Creación de la sección `Texto libre, códigos y vocabularios controlados`. Eje: diferencia entre `str`, texto libre, texto normalizado, categoría controlada y código; uso pedagógico de `Enum`; patrón mínimo de normalización, mapeo, rechazo explícito y conservación de razón. Ejemplos de código verificados antes del commit.
+- Creación de la sección `Booleanos, estados e incertidumbre`. Eje: diferencia entre `bool`, valor de verdad técnico y estado biomédico controlado; conservación de `presente`, `ausente`, `desconocido`, `no_evaluado` y `no_aplica`; prevención de convertir `None` o texto en ausencia clínica. Ejemplos de código verificados antes del commit.
 - Actualización de `_toc.yml` y del glosario con `Código`, `Normalización`, `Texto libre` y `Vocabulario controlado`.
 
 - Apertura de la Unidad II con el capítulo contenedor `Tipos de datos para problemas biomédicos`. Eje: los tipos de datos como promesas operacionales y decisiones de representación, no como lista sintáctica de Python.
@@ -148,14 +154,13 @@ Límite:
 
 Prioridad siguiente:
 
-1. Continuar con la siguiente sección de la Unidad II: booleanos, estados e incertidumbre.
+1. Continuar con fechas, tiempos, intervalos y granularidad clínica.
 2. Mantener el patrón `tipo + validador` y la línea transversal `CODE CLEAN`.
 3. Revisar visualmente la nueva sección HTML si se va a publicar en GitHub Pages en este ciclo.
 
 Siguientes secciones candidatas:
 
 - Texto libre, códigos y vocabularios controlados.
-- Booleanos, estados e incertidumbre.
 - Fechas, tiempos, intervalos y granularidad clínica.
 - Ausencia, centinelas y datos faltantes.
 
@@ -170,7 +175,7 @@ Siguientes secciones candidatas:
 
 Retomar por:
 
-1. `chapters/14-texto-libre-codigos-vocabularios.md`.
-2. Continuar con la sección posterior: booleanos, estados e incertidumbre.
+1. `chapters/15-booleanos-estados-incertidumbre.md`.
+2. Continuar con la sección posterior: fechas, tiempos, intervalos y granularidad clínica.
 3. Mantener la línea `CODE CLEAN`: versión frágil, crítica, versión mejorada, salida esperada y prueba mínima.
 4. Build local con `.\venv\Scripts\jupyter-book.exe build .`.

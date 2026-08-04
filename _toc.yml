@@ -27,6 +27,7 @@ parts:
         sections:
           - file: chapters/13-numeros-unidades-mediciones
           - file: chapters/14-texto-libre-codigos-vocabularios
+          - file: chapters/15-booleanos-estados-incertidumbre
   - caption: Apéndices
     chapters:
       - file: chapters/apendice-a-entorno
