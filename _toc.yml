@@ -29,6 +29,7 @@ parts:
           - file: chapters/14-texto-libre-codigos-vocabularios
           - file: chapters/15-booleanos-estados-incertidumbre
           - file: chapters/16-fechas-tiempos-intervalos-granularidad-clinica
+          - file: chapters/17-ausencia-datos-centinelas-marcadores
   - caption: Apéndices
     chapters:
       - file: chapters/apendice-a-entorno

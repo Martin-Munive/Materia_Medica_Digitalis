@@ -38,6 +38,10 @@ Representación registrada de una observación, medición, evento, categoría o 
 
 Valor ausente, no medido, no registrado o no disponible. En dominios biomédicos no debe tratarse silenciosamente como normalidad.
 
+## Dato ausente
+
+Valor no disponible para una operación concreta. Debe distinguirse de cero, normalidad, no aplicabilidad, resultado pendiente, dato inválido o dato censurado.
+
 ## Dato temporal
 
 Representación de tiempo acompañada por tipo de evento, precisión, estado, fuente y regla de cálculo. Puede ser fecha, instante, intervalo, duración o ventana.
@@ -57,6 +61,10 @@ Representación discreta de la situación actual de un sistema, paciente, proced
 ## Estado controlado
 
 Valor permitido dentro de un conjunto explícito de estados. Evita que condiciones como presente, ausente, desconocido, no evaluado o no aplicable se dispersen como textos o booleanos ambiguos.
+
+## Marcador especial
+
+Símbolo, texto o número usado para indicar una condición distinta al valor ordinario, como pendiente, inválido, no aplica o no medido. Debe traducirse antes de calcular.
 
 ## Estructura de datos
 
@@ -225,3 +233,7 @@ Afirmación general sobre la relación entre entradas y salidas de un procedimie
 ## Reproducibilidad
 
 Propiedad de un procedimiento que produce la misma salida ante la misma entrada. Es la primera propiedad que conviene verificar, porque sin ella no existe cálculo estable que probar.
+
+## Denominador
+
+Conjunto de casos sobre los que se calcula una proporción. Cuando hay datos faltantes, el denominador debe declararse de forma explícita: total, documentados, medidos, elegibles u otra población.

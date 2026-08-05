@@ -69,8 +69,8 @@ Estado 2026-08-01:
 - la primera unidad conceptual quedó cerrada con once secciones;
 - los ejemplos de código existentes fueron corregidos para incluir comentarios, salidas esperadas y aclaración cuando no imprimen salida visible;
 - la línea `CODE CLEAN` queda activa como disciplina transversal: versión ingenua, crítica técnica, versión mejorada, salida esperada, prueba mínima y lección transferible;
-- la Unidad II quedó iniciada con `Tipos de datos para problemas biomédicos`, `Números, unidades y mediciones`, `Texto libre, códigos y vocabularios controlados`, `Booleanos, estados e incertidumbre`, y `Fechas, tiempos, intervalos y granularidad clínica`;
-- el siguiente bloque debe continuar con ausencia de datos, valores centinela y marcadores especiales.
+- la Unidad II quedó iniciada con `Tipos de datos para problemas biomédicos`, `Números, unidades y mediciones`, `Texto libre, códigos y vocabularios controlados`, `Booleanos, estados e incertidumbre`, `Fechas, tiempos, intervalos y granularidad clínica`, y `Ausencia de datos, valores centinela y marcadores especiales`;
+- el siguiente bloque debe continuar con listas, diccionarios y registros.
 
 ## Fase 2B. Tipos de datos para problemas biomédicos
 
@@ -85,7 +85,7 @@ Secciones iniciales:
 - Texto libre, códigos y vocabularios controlados.
 - Booleanos, estados e incertidumbre.
 - Fechas, tiempos, intervalos y granularidad clínica.
-- Ausencia, centinelas y datos faltantes.
+- Ausencia de datos, valores centinela y marcadores especiales.
 - Listas, diccionarios y registros.
 
 Criterio:
