@@ -46,6 +46,18 @@ Valor no disponible para una operación concreta. Debe distinguirse de cero, nor
 
 Representación de tiempo acompañada por tipo de evento, precisión, estado, fuente y regla de cálculo. Puede ser fecha, instante, intervalo, duración o ventana.
 
+## Campo
+
+Parte nombrada de un registro, como `valor`, `unidad`, `estado` o `fuente`. Un campo debe tener significado estable dentro del contrato de la observación.
+
+## Clave
+
+Identificador usado en un diccionario para acceder a un valor. En registros biomédicos debe ser estable, legible y coherente con el dominio.
+
+## Colección
+
+Estructura que agrupa varios elementos para recorrerlos, buscarlos, contarlos, transformarlos o validarlos. Una colección no define por sí sola el significado de sus elementos.
+
 ## Medición
 
 Valor observado acompañado por unidad, contexto y regla de validez. En dominios biomédicos, una medición no debe reducirse al número que la representa.
@@ -102,6 +114,10 @@ Precisión con la que se conoce o representa un dato. En datos temporales puede 
 
 Momento temporal específico, idealmente con fecha, hora y zona horaria cuando se requiere comparación entre sistemas, lugares o registros.
 
+## Lista
+
+Colección ordenada de elementos. Es útil para representar secuencias, conjuntos de observaciones o resultados, pero no debe usarse sola para ocultar campos con significado distinto.
+
 ## Intervalo
 
 Espacio temporal entre un inicio y un fin. Puede estar cerrado, abierto, incompleto o no calculable según la disponibilidad y precisión de sus límites.
@@ -129,6 +145,10 @@ Estado que indica que una pregunta, regla o campo no corresponde al caso evaluad
 ## Representación
 
 Forma en que un fenómeno del mundo se convierte en algo manipulable por un sistema: variable, lista, tabla, matriz, grafo, texto, señal, imagen o secuencia.
+
+## Registro
+
+Observación representada por campos nombrados. En dominios biomédicos debe declarar campos mínimos, tipos, unidades, estado y trazabilidad proporcional al uso posterior.
 
 ## Retorno
 
