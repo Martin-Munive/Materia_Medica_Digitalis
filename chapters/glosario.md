@@ -38,6 +38,10 @@ Representación registrada de una observación, medición, evento, categoría o 
 
 Valor ausente, no medido, no registrado o no disponible. En dominios biomédicos no debe tratarse silenciosamente como normalidad.
 
+## Dato temporal
+
+Representación de tiempo acompañada por tipo de evento, precisión, estado, fuente y regla de cálculo. Puede ser fecha, instante, intervalo, duración o ventana.
+
 ## Medición
 
 Valor observado acompañado por unidad, contexto y regla de validez. En dominios biomédicos, una medición no debe reducirse al número que la representa.
@@ -81,6 +85,18 @@ Texto interno de documentación ubicado al inicio de una función, clase o módu
 ## Iteración
 
 Cada repetición individual de un bucle. Durante una iteración pueden cambiar acumuladores, estados, salidas parciales o condiciones de parada.
+
+## Granularidad
+
+Precisión con la que se conoce o representa un dato. En datos temporales puede ser año, mes, día, hora, minuto o segundo, y gobierna qué cálculos son legítimos.
+
+## Instante
+
+Momento temporal específico, idealmente con fecha, hora y zona horaria cuando se requiere comparación entre sistemas, lugares o registros.
+
+## Intervalo
+
+Espacio temporal entre un inicio y un fin. Puede estar cerrado, abierto, incompleto o no calculable según la disponibilidad y precisión de sus límites.
 
 ## Parámetro
 
