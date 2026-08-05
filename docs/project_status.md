@@ -31,6 +31,7 @@ Documento rector agregado:
 
 - `docs/editorial_thesis_scope.md`: tesis editorial, alcance máximo, función formativa y valor reputacional esperado.
 - `docs/global_integrity_audit.md`: auditoría GLOBAL inaugural del libro como obra completa en curso.
+- `docs/github_actions_maintenance.md`: mantenimiento del workflow de GitHub Pages y regla frente a deprecaciones de runtime.
 
 ## Estado actual verificado
 
@@ -40,7 +41,8 @@ Documento rector agregado:
 - Sphinx Book Theme.
 - GitHub Pages mediante `.github/workflows/deploy-book.yml`.
 - `_config.yml` y `_toc.yml` activos.
-- Build local verificado con `.\venv\Scripts\jupyter-book.exe build .`.
+- Build local verificado con la CLI interna de Jupyter Book cuando el wrapper `jupyter-book.exe` no entrega diagnóstico.
+- Workflow `deploy-book` actualizado para evitar advertencias de runtime Node.js deprecado en GitHub Actions.
 
 ### Contenido publicable existente
 
@@ -78,6 +80,7 @@ Documento rector agregado:
 - `docs/project_status.md`.
 - `docs/cover_design_brief.md`.
 - `docs/clean_code_reference_strategy.md`.
+- `docs/github_actions_maintenance.md`.
 
 ## Avance porcentual
 
