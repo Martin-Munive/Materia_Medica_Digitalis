@@ -70,6 +70,7 @@ Documento rector agregado:
 - Cuarta sección de la Unidad II: `Fechas, tiempos, intervalos y granularidad clínica`.
 - Quinta sección de la Unidad II: `Ausencia de datos, valores centinela y marcadores especiales`.
 - Sexta sección de la Unidad II: `Listas, diccionarios y registros`.
+- Séptima sección de la Unidad II: `Tablas simples, limpieza y validación`.
 - Apéndice A: entorno de trabajo.
 - Glosario vivo.
 
@@ -112,6 +113,9 @@ Cambios incorporados en el ciclo actual:
 
 - Creación de la sección `Listas, diccionarios y registros`. Eje: diferencia entre colección ordenada, mapa clave-valor y observación con campos; prevención de usar posiciones como significado biomédico; validación de registros antes de agrupar; separación entre válidos y rechazados.
 - Actualización de `_toc.yml` y del glosario con `Campo`, `Clave`, `Colección`, `Lista` y `Registro`.
+
+- Creación de la sección `Tablas simples, limpieza y validación`. Eje: diferencia entre tabla visible y tabla validada; lectura CSV como adquisición, no interpretación; limpieza de valores crudos, validación de filas, separación de válidos/rechazados y conservación de conteos por estado.
+- Actualización de `_toc.yml` y del glosario con `Columna`, `Esquema`, `Fila`, `Limpieza de datos` y `Tabla`.
 
 - Apertura de la Unidad II con el capítulo contenedor `Tipos de datos para problemas biomédicos`. Eje: los tipos de datos como promesas operacionales y decisiones de representación, no como lista sintáctica de Python.
 - Creación de la sección `Números, unidades y mediciones`. Eje: una medición biomédica como valor numérico acompañado por unidad, regla de validez y significado de dominio; separación entre valor imposible, rango de referencia, alerta y dato faltante; patrón mínimo `tipo + validador`; ejemplo pedagógico de dosis por peso. Ejemplos de código verificados antes del commit.
@@ -174,14 +178,14 @@ Límite:
 
 Prioridad siguiente:
 
-1. Continuar con tablas simples, limpieza y validación.
+1. Continuar con esquemas mínimos y validación formal.
 2. Mantener el patrón `tipo + validador` y la línea transversal `CODE CLEAN`.
 3. Revisar visualmente la nueva sección HTML si se va a publicar en GitHub Pages en este ciclo.
 
 Siguientes secciones candidatas:
 
-- Tablas simples, limpieza y validación.
 - Esquemas mínimos y validación formal.
+- Introducción controlada a `pandas` como herramienta tabular.
 
 ## Riesgos activos
 
@@ -194,7 +198,7 @@ Siguientes secciones candidatas:
 
 Retomar por:
 
-1. `chapters/18-listas-diccionarios-registros.md` ya quedó creado y enlazado.
-2. Continuar con la sección posterior: tablas simples, limpieza y validación.
+1. `chapters/19-tablas-simples-limpieza-validacion.md` ya quedó creado y enlazado.
+2. Continuar con la sección posterior: esquemas mínimos y validación formal.
 3. Mantener la línea `CODE CLEAN`: versión frágil, crítica, versión mejorada, salida esperada y prueba mínima.
 4. Build local validado invocando la CLI interna de Jupyter Book: `.\venv\Scripts\python.exe -c "from jupyter_book.cli.main import main; raise SystemExit(main(['build', '.']))"`.

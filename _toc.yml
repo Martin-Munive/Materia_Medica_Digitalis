@@ -31,6 +31,7 @@ parts:
           - file: chapters/16-fechas-tiempos-intervalos-granularidad-clinica
           - file: chapters/17-ausencia-datos-centinelas-marcadores
           - file: chapters/18-listas-diccionarios-registros
+          - file: chapters/19-tablas-simples-limpieza-validacion
   - caption: Apéndices
     chapters:
       - file: chapters/apendice-a-entorno

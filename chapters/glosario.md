@@ -257,3 +257,23 @@ Propiedad de un procedimiento que produce la misma salida ante la misma entrada.
 ## Denominador
 
 Conjunto de casos sobre los que se calcula una proporción. Cuando hay datos faltantes, el denominador debe declararse de forma explícita: total, documentados, medidos, elegibles u otra población.
+
+## Columna
+
+Variable o campo compartido por las filas de una tabla. En datos biomédicos debe tener nombre estable, tipo esperado, unidad cuando corresponda y regla de interpretación.
+
+## Esquema
+
+Contrato que declara columnas, tipos, unidades, valores permitidos, campos requeridos y reglas de validez de una tabla o estructura de datos.
+
+## Fila
+
+Observación individual dentro de una tabla. Puede representar un paciente, una muestra, una medición, un evento, una variante o cualquier unidad analítica definida.
+
+## Limpieza de datos
+
+Transformación documentada de valores crudos para hacerlos comparables e interpretables sin borrar su origen, estado o razón de cambio.
+
+## Tabla
+
+Colección de filas y columnas que organiza observaciones y variables. Una tabla biomédica no es confiable solo por tener forma tabular; necesita esquema, validación, manejo de ausencias y trazabilidad.
