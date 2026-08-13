@@ -262,6 +262,10 @@ Conjunto de casos sobre los que se calcula una proporción. Cuando hay datos fal
 
 Variable o campo compartido por las filas de una tabla. En datos biomédicos debe tener nombre estable, tipo esperado, unidad cuando corresponda y regla de interpretación.
 
+## DataFrame
+
+Estructura tabular de `pandas` organizada por filas y columnas etiquetadas. En datos biomédicos debe tratarse como una mesa de trabajo, no como garantía automática de limpieza, validez o significado.
+
 ## Esquema
 
 Contrato que declara columnas, tipos, unidades, valores permitidos, campos requeridos y reglas de validez de una tabla o estructura de datos.
@@ -274,6 +278,10 @@ Contrato reducido pero explícito que declara los campos, tipos, obligatoriedad,
 
 Observación individual dentro de una tabla. Puede representar un paciente, una muestra, una medición, un evento, una variante o cualquier unidad analítica definida.
 
+## Máscara booleana
+
+Serie de valores verdadero/falso usada para seleccionar filas de una tabla. En datos biomédicos debe expresar una regla de dominio explícita, como fila medida, unidad compatible o valor calculable.
+
 ## Limpieza de datos
 
 Transformación documentada de valores crudos para hacerlos comparables e interpretables sin borrar su origen, estado o razón de cambio.
@@ -281,6 +289,10 @@ Transformación documentada de valores crudos para hacerlos comparables e interp
 ## Tabla
 
 Colección de filas y columnas que organiza observaciones y variables. Una tabla biomédica no es confiable solo por tener forma tabular; necesita esquema, validación, manejo de ausencias y trazabilidad.
+
+## Serie
+
+Estructura unidimensional de `pandas` con etiquetas. Puede representar una columna, un vector de estados, una máscara o un resultado derivado.
 
 ## Validación formal
 

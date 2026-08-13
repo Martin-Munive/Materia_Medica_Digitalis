@@ -72,6 +72,7 @@ Documento rector agregado:
 - Sexta sección de la Unidad II: `Listas, diccionarios y registros`.
 - Séptima sección de la Unidad II: `Tablas simples, limpieza y validación`.
 - Octava sección de la Unidad II: `Esquemas mínimos y validación formal`.
+- Novena sección de la Unidad II: `pandas como herramienta tabular controlada`.
 - Apéndice A: entorno de trabajo.
 - Glosario vivo.
 
@@ -119,6 +120,10 @@ Cambios incorporados en el ciclo actual:
 - Actualización de `_toc.yml` y del glosario con `Columna`, `Esquema`, `Fila`, `Limpieza de datos` y `Tabla`.
 - Creación de la sección `Esquemas mínimos y validación formal`. Eje: diferencia entre validación dispersa con condiciones sueltas y contrato explícito versionado; esquema como dato; validador genérico pequeño; uso pedagógico de `dataclass`; separación `esquema -> validación -> cálculo`.
 - Actualización de `_toc.yml` y del glosario con `Esquema mínimo`, `Validación formal` y `Versión de esquema`.
+
+- Creación de la sección `pandas como herramienta tabular controlada`. Eje: introducción de `Series`, `DataFrame`, selección con `.loc`, lectura CSV, máscaras booleanas, normalización mínima de unidades, conteo con denominadores explícitos y uso de `pandas` como mesa de trabajo, no como sustituto de validación o base de datos.
+- Actualización de `requirements.txt` con `pandas>=3.0,<4`.
+- Actualización de `_toc.yml` y del glosario con `DataFrame`, `Serie` y `Máscara booleana`.
 
 - Apertura de la Unidad II con el capítulo contenedor `Tipos de datos para problemas biomédicos`. Eje: los tipos de datos como promesas operacionales y decisiones de representación, no como lista sintáctica de Python.
 - Creación de la sección `Números, unidades y mediciones`. Eje: una medición biomédica como valor numérico acompañado por unidad, regla de validez y significado de dominio; separación entre valor imposible, rango de referencia, alerta y dato faltante; patrón mínimo `tipo + validador`; ejemplo pedagógico de dosis por peso. Ejemplos de código verificados antes del commit.
@@ -181,13 +186,13 @@ Límite:
 
 Prioridad siguiente:
 
-1. Continuar con una introducción controlada a `pandas` como herramienta tabular.
+1. Continuar con la transición entre archivos, tablas de trabajo y almacenamiento persistente.
 2. Mantener el patrón `tipo + validador` y la línea transversal `CODE CLEAN`.
 3. Revisar visualmente la nueva sección HTML si se va a publicar en GitHub Pages en este ciclo.
 
 Siguientes secciones candidatas:
 
-- Introducción controlada a `pandas` como herramienta tabular.
+- Archivos, tablas de trabajo y almacenamiento persistente.
 - Transición hacia bases de datos, APIs y análisis reproducibles.
 
 ## Riesgos activos
@@ -201,7 +206,7 @@ Siguientes secciones candidatas:
 
 Retomar por:
 
-1. `chapters/20-esquemas-minimos-validacion-formal.md` ya quedó creado y enlazado.
-2. Continuar con la sección posterior: introducción controlada a `pandas` como herramienta tabular.
+1. `chapters/21-pandas-herramienta-tabular-controlada.md` ya quedó creado y enlazado.
+2. Continuar con la sección posterior: archivos, tablas de trabajo y almacenamiento persistente.
 3. Mantener la línea `CODE CLEAN`: versión frágil, crítica, versión mejorada, salida esperada y prueba mínima.
 4. Build local validado invocando la CLI interna de Jupyter Book: `.\venv\Scripts\python.exe -c "from jupyter_book.cli.main import main; raise SystemExit(main(['build', '.']))"`.
