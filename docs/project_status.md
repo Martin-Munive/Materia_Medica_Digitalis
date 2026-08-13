@@ -73,6 +73,7 @@ Documento rector agregado:
 - Séptima sección de la Unidad II: `Tablas simples, limpieza y validación`.
 - Octava sección de la Unidad II: `Esquemas mínimos y validación formal`.
 - Novena sección de la Unidad II: `pandas como herramienta tabular controlada`.
+- Décima sección de la Unidad II: `Archivos, tablas de trabajo y almacenamiento persistente`.
 - Apéndice A: entorno de trabajo.
 - Glosario vivo.
 
@@ -124,6 +125,9 @@ Cambios incorporados en el ciclo actual:
 - Creación de la sección `pandas como herramienta tabular controlada`. Eje: introducción de `Series`, `DataFrame`, selección con `.loc`, lectura CSV, máscaras booleanas, normalización mínima de unidades, conteo con denominadores explícitos y uso de `pandas` como mesa de trabajo, no como sustituto de validación o base de datos.
 - Actualización de `requirements.txt` con `pandas>=3.0,<4`.
 - Actualización de `_toc.yml` y del glosario con `DataFrame`, `Serie` y `Máscara booleana`.
+
+- Creación de la sección `Archivos, tablas de trabajo y almacenamiento persistente`. Eje: separación entre archivo de entrada, `DataFrame` de trabajo y SQLite como persistencia mínima; separación aceptados/rechazados; inserciones parametrizadas; recuperación con `pandas.read_sql`; límites de `to_sql`.
+- Actualización de `_toc.yml` y del glosario con `Almacenamiento persistente`, `SQLite` y `Tabla de trabajo`.
 
 - Apertura de la Unidad II con el capítulo contenedor `Tipos de datos para problemas biomédicos`. Eje: los tipos de datos como promesas operacionales y decisiones de representación, no como lista sintáctica de Python.
 - Creación de la sección `Números, unidades y mediciones`. Eje: una medición biomédica como valor numérico acompañado por unidad, regla de validez y significado de dominio; separación entre valor imposible, rango de referencia, alerta y dato faltante; patrón mínimo `tipo + validador`; ejemplo pedagógico de dosis por peso. Ejemplos de código verificados antes del commit.
@@ -186,13 +190,13 @@ Límite:
 
 Prioridad siguiente:
 
-1. Continuar con la transición entre archivos, tablas de trabajo y almacenamiento persistente.
+1. Continuar con diseño mínimo de entidades, relaciones y claves.
 2. Mantener el patrón `tipo + validador` y la línea transversal `CODE CLEAN`.
 3. Revisar visualmente la nueva sección HTML si se va a publicar en GitHub Pages en este ciclo.
 
 Siguientes secciones candidatas:
 
-- Archivos, tablas de trabajo y almacenamiento persistente.
+- Diseño mínimo de entidades, relaciones y claves.
 - Transición hacia bases de datos, APIs y análisis reproducibles.
 
 ## Riesgos activos
@@ -206,7 +210,7 @@ Siguientes secciones candidatas:
 
 Retomar por:
 
-1. `chapters/21-pandas-herramienta-tabular-controlada.md` ya quedó creado y enlazado.
-2. Continuar con la sección posterior: archivos, tablas de trabajo y almacenamiento persistente.
+1. `chapters/22-archivos-tablas-almacenamiento-persistente.md` ya quedó creado y enlazado.
+2. Continuar con la sección posterior: diseño mínimo de entidades, relaciones y claves.
 3. Mantener la línea `CODE CLEAN`: versión frágil, crítica, versión mejorada, salida esperada y prueba mínima.
 4. Build local validado invocando la CLI interna de Jupyter Book: `.\venv\Scripts\python.exe -c "from jupyter_book.cli.main import main; raise SystemExit(main(['build', '.']))"`.

@@ -34,6 +34,7 @@ parts:
           - file: chapters/19-tablas-simples-limpieza-validacion
           - file: chapters/20-esquemas-minimos-validacion-formal
           - file: chapters/21-pandas-herramienta-tabular-controlada
+          - file: chapters/22-archivos-tablas-almacenamiento-persistente
   - caption: Apéndices
     chapters:
       - file: chapters/apendice-a-entorno

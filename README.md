@@ -117,14 +117,14 @@ Implementado:
 - Primera unidad conceptual: `El lenguaje de las decisiones`.
 - Secciones publicables sobre algoritmos, pasos, variables, estados, excepciones, condicionales, bucles, funciones, seguridad del cálculo, funciones puras y pruebas mínimas.
 - Segunda unidad iniciada: `Tipos de datos para problemas biomédicos`.
-- Secciones publicables sobre números, unidades, mediciones, texto libre, códigos, vocabularios controlados, booleanos, estados, incertidumbre, fechas, tiempos, intervalos, granularidad clínica, ausencia de datos, valores centinela, listas, diccionarios, registros, tablas simples, limpieza, validación, esquemas mínimos, validación formal y `pandas` como herramienta tabular controlada.
+- Secciones publicables sobre números, unidades, mediciones, texto libre, códigos, vocabularios controlados, booleanos, estados, incertidumbre, fechas, tiempos, intervalos, granularidad clínica, ausencia de datos, valores centinela, listas, diccionarios, registros, tablas simples, limpieza, validación, esquemas mínimos, validación formal, `pandas` como herramienta tabular controlada y transición hacia almacenamiento persistente.
 - Glosario vivo.
 - Apéndice de entorno.
 - Documentación editorial y técnica de control del proyecto.
 
 Siguiente dirección editorial:
 
-- continuar la segunda unidad con la transición entre archivos, tablas de trabajo y almacenamiento persistente;
+- continuar la segunda unidad con diseño mínimo de entidades, relaciones y claves;
 - preparar la entrada a bases de datos, APIs y análisis reproducibles;
 - mantener la línea transversal `CODE CLEAN`: versión ingenua, crítica técnica, versión mejorada, salida esperada y prueba mínima.
 

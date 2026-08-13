@@ -266,6 +266,10 @@ Variable o campo compartido por las filas de una tabla. En datos biomédicos deb
 
 Estructura tabular de `pandas` organizada por filas y columnas etiquetadas. En datos biomédicos debe tratarse como una mesa de trabajo, no como garantía automática de limpieza, validez o significado.
 
+## Almacenamiento persistente
+
+Conservación estructurada de datos más allá de una ejecución del programa. Puede ser un archivo, una base de datos u otro sistema de registro, pero debe mantener reglas de interpretación y trazabilidad proporcionales al uso.
+
 ## Esquema
 
 Contrato que declara columnas, tipos, unidades, valores permitidos, campos requeridos y reglas de validez de una tabla o estructura de datos.
@@ -278,6 +282,10 @@ Contrato reducido pero explícito que declara los campos, tipos, obligatoriedad,
 
 Observación individual dentro de una tabla. Puede representar un paciente, una muestra, una medición, un evento, una variante o cualquier unidad analítica definida.
 
+## SQLite
+
+Motor de base de datos relacional embebido. Es útil para aprendizaje, prototipos, herramientas locales y persistencia ligera, pero no elimina la necesidad de diseñar tablas, claves, restricciones y reglas de validación.
+
 ## Máscara booleana
 
 Serie de valores verdadero/falso usada para seleccionar filas de una tabla. En datos biomédicos debe expresar una regla de dominio explícita, como fila medida, unidad compatible o valor calculable.
@@ -289,6 +297,10 @@ Transformación documentada de valores crudos para hacerlos comparables e interp
 ## Tabla
 
 Colección de filas y columnas que organiza observaciones y variables. Una tabla biomédica no es confiable solo por tener forma tabular; necesita esquema, validación, manejo de ausencias y trazabilidad.
+
+## Tabla de trabajo
+
+Estructura temporal usada para inspeccionar, limpiar, validar y transformar datos antes de persistirlos o analizarlos. No debe confundirse automáticamente con la fuente de verdad.
 
 ## Serie
 

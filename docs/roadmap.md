@@ -70,7 +70,7 @@ Estado 2026-08-01:
 - los ejemplos de código existentes fueron corregidos para incluir comentarios, salidas esperadas y aclaración cuando no imprimen salida visible;
 - la línea `CODE CLEAN` queda activa como disciplina transversal: versión ingenua, crítica técnica, versión mejorada, salida esperada, prueba mínima y lección transferible;
 - la Unidad II quedó iniciada con `Tipos de datos para problemas biomédicos`, `Números, unidades y mediciones`, `Texto libre, códigos y vocabularios controlados`, `Booleanos, estados e incertidumbre`, `Fechas, tiempos, intervalos y granularidad clínica`, `Ausencia de datos, valores centinela y marcadores especiales`, `Listas, diccionarios y registros`, y `Tablas simples, limpieza y validación`;
-- el siguiente bloque debe continuar con la transición entre archivos, tablas de trabajo y almacenamiento persistente.
+- el siguiente bloque debe continuar con diseño mínimo de entidades, relaciones y claves.
 
 ## Fase 2B. Tipos de datos para problemas biomédicos
 
@@ -90,6 +90,7 @@ Secciones iniciales:
 - Tablas simples, limpieza y validación.
 - Esquemas mínimos y validación formal.
 - `pandas` como herramienta tabular controlada.
+- Archivos, tablas de trabajo y almacenamiento persistente.
 
 Criterio:
 - el tipo técnico de Python debe conectarse siempre con el contrato de dominio;
