@@ -32,6 +32,7 @@ parts:
           - file: chapters/17-ausencia-datos-centinelas-marcadores
           - file: chapters/18-listas-diccionarios-registros
           - file: chapters/19-tablas-simples-limpieza-validacion
+          - file: chapters/20-esquemas-minimos-validacion-formal
   - caption: Apéndices
     chapters:
       - file: chapters/apendice-a-entorno

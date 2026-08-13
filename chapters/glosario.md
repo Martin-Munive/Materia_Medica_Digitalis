@@ -266,6 +266,10 @@ Variable o campo compartido por las filas de una tabla. En datos biomédicos deb
 
 Contrato que declara columnas, tipos, unidades, valores permitidos, campos requeridos y reglas de validez de una tabla o estructura de datos.
 
+## Esquema mínimo
+
+Contrato reducido pero explícito que declara los campos, tipos, obligatoriedad, unidades, valores permitidos, límites y versión necesarios para una operación concreta. No pretende cubrir todo el dominio, sino hacer defendible una transformación o cálculo específico.
+
 ## Fila
 
 Observación individual dentro de una tabla. Puede representar un paciente, una muestra, una medición, un evento, una variante o cualquier unidad analítica definida.
@@ -277,3 +281,11 @@ Transformación documentada de valores crudos para hacerlos comparables e interp
 ## Tabla
 
 Colección de filas y columnas que organiza observaciones y variables. Una tabla biomédica no es confiable solo por tener forma tabular; necesita esquema, validación, manejo de ausencias y trazabilidad.
+
+## Validación formal
+
+Comparación explícita de un dato, registro o tabla contra un esquema declarado. Debe producir una salida trazable: estado, valores limpios cuando existan, errores, razones y versión de regla aplicada.
+
+## Versión de esquema
+
+Identificador de la variante del contrato de datos que se usó para validar una estructura. Permite reconstruir por qué una fila fue aceptada o rechazada cuando las reglas cambian con el tiempo.

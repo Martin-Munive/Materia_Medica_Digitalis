@@ -117,14 +117,14 @@ Implementado:
 - Primera unidad conceptual: `El lenguaje de las decisiones`.
 - Secciones publicables sobre algoritmos, pasos, variables, estados, excepciones, condicionales, bucles, funciones, seguridad del cálculo, funciones puras y pruebas mínimas.
 - Segunda unidad iniciada: `Tipos de datos para problemas biomédicos`.
-- Secciones publicables sobre números, unidades, mediciones, texto libre, códigos, vocabularios controlados, booleanos, estados, incertidumbre, fechas, tiempos, intervalos, granularidad clínica, ausencia de datos, valores centinela, listas, diccionarios, registros, tablas simples, limpieza y validación.
+- Secciones publicables sobre números, unidades, mediciones, texto libre, códigos, vocabularios controlados, booleanos, estados, incertidumbre, fechas, tiempos, intervalos, granularidad clínica, ausencia de datos, valores centinela, listas, diccionarios, registros, tablas simples, limpieza, validación, esquemas mínimos y validación formal.
 - Glosario vivo.
 - Apéndice de entorno.
 - Documentación editorial y técnica de control del proyecto.
 
 Siguiente dirección editorial:
 
-- continuar la segunda unidad con esquemas mínimos y validación formal;
+- continuar la segunda unidad con una introducción controlada a `pandas` como herramienta tabular;
 - preparar la transición hacia bases de datos, APIs y análisis reproducibles;
 - mantener la línea transversal `CODE CLEAN`: versión ingenua, crítica técnica, versión mejorada, salida esperada y prueba mínima.
 
@@ -195,7 +195,7 @@ _static/custom.css
 ## Roadmap público
 
 1. Completar la unidad II sobre tipos de datos para problemas biomédicos.
-2. Construir capítulos sobre listas, diccionarios, registros, tablas simples, limpieza y validación.
+2. Construir capítulos sobre listas, diccionarios, registros, tablas simples, limpieza, validación, esquemas y herramientas tabulares.
 3. Reintroducir complejidad, estructuras de datos y pruebas desde la nueva arquitectura editorial.
 4. Avanzar hacia algoritmos clásicos con casos biomédicos concretos.
 5. Conectar datos clínicos, bioinformática, genética computacional, señales, texto e imagen biomédica.
