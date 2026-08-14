@@ -54,6 +54,14 @@ Parte nombrada de un registro, como `valor`, `unidad`, `estado` o `fuente`. Un c
 
 Identificador usado en un diccionario para acceder a un valor. En registros biomédicos debe ser estable, legible y coherente con el dominio.
 
+## Clave foránea
+
+Campo que enlaza una fila con una entidad registrada en otra tabla. Permite declarar que una medición pertenece a un paciente, una muestra o un evento existente.
+
+## Clave primaria
+
+Identificador que distingue de forma única una fila dentro de una tabla. Protege identidad local y permite que otras tablas apunten a esa entidad.
+
 ## Colección
 
 Estructura que agrupa varios elementos para recorrerlos, buscarlos, contarlos, transformarlos o validarlos. Una colección no define por sí sola el significado de sus elementos.
@@ -73,6 +81,10 @@ Representación discreta de la situación actual de un sistema, paciente, proced
 ## Estado controlado
 
 Valor permitido dentro de un conjunto explícito de estados. Evita que condiciones como presente, ausente, desconocido, no evaluado o no aplicable se dispersen como textos o booleanos ambiguos.
+
+## Entidad
+
+Cosa del dominio que necesita identidad propia dentro de un sistema, como paciente, muestra, medición, evento, fármaco, regla o fuente.
 
 ## Marcador especial
 
@@ -141,6 +153,10 @@ Transformación técnica que prepara un valor para comparación o validación, c
 ## No aplicable
 
 Estado que indica que una pregunta, regla o campo no corresponde al caso evaluado. No debe usarse como sinónimo de dato faltante, desconocido o no diligenciado.
+
+## Relación
+
+Vínculo explícito entre entidades. En una base relacional suele expresarse mediante claves, por ejemplo una medición asociada a un paciente.
 
 ## Representación
 

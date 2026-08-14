@@ -35,6 +35,7 @@ parts:
           - file: chapters/20-esquemas-minimos-validacion-formal
           - file: chapters/21-pandas-herramienta-tabular-controlada
           - file: chapters/22-archivos-tablas-almacenamiento-persistente
+          - file: chapters/23-entidades-relaciones-claves
   - caption: Apéndices
     chapters:
       - file: chapters/apendice-a-entorno
