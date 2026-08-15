@@ -30,6 +30,10 @@ Expresión que puede evaluarse como verdadera o falsa y que permite tomar camino
 
 Estructura de control que selecciona una rama de ejecución según una condición. En este libro, un condicional también representa una decisión sobre el significado operativo de los datos.
 
+## Consulta reproducible
+
+Pregunta escrita de forma explícita, parametrizada y repetible sobre una base de datos o tabla. Permite reconstruir criterios de selección, denominadores y resúmenes.
+
 ## Dato
 
 Representación registrada de una observación, medición, evento, categoría o estado. Un dato no equivale automáticamente a conocimiento ni a decisión.
@@ -118,6 +122,10 @@ Texto interno de documentación ubicado al inicio de una función, clase o módu
 
 Cada repetición individual de un bucle. Durante una iteración pueden cambiar acumuladores, estados, salidas parciales o condiciones de parada.
 
+## Índice
+
+Estructura auxiliar de una base de datos que acelera búsquedas, ordenamientos o uniones sobre una o varias columnas. No cambia el contenido del dato, pero cambia el costo de recuperarlo.
+
 ## Granularidad
 
 Precisión con la que se conoce o representa un dato. En datos temporales puede ser año, mes, día, hora, minuto o segundo, y gobierna qué cálculos son legítimos.
@@ -165,6 +173,10 @@ Forma en que un fenómeno del mundo se convierte en algo manipulable por un sist
 ## Registro
 
 Observación representada por campos nombrados. En dominios biomédicos debe declarar campos mínimos, tipos, unidades, estado y trazabilidad proporcional al uso posterior.
+
+## Restricción
+
+Regla declarada en una base de datos para impedir estados estructuralmente inválidos, como claves duplicadas, campos obligatorios ausentes, referencias huérfanas o valores fuera de un conjunto permitido.
 
 ## Retorno
 

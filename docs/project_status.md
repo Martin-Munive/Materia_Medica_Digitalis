@@ -75,6 +75,7 @@ Documento rector agregado:
 - Novena sección de la Unidad II: `pandas como herramienta tabular controlada`.
 - Décima sección de la Unidad II: `Archivos, tablas de trabajo y almacenamiento persistente`.
 - Undécima sección de la Unidad II: `Entidades, relaciones y claves`.
+- Duodécima sección de la Unidad II: `Restricciones, índices y consultas reproducibles`.
 - Apéndice A: entorno de trabajo.
 - Glosario vivo.
 
@@ -131,6 +132,8 @@ Cambios incorporados en el ciclo actual:
 - Actualización de `_toc.yml` y del glosario con `Almacenamiento persistente`, `SQLite` y `Tabla de trabajo`.
 - Creación de la sección `Entidades, relaciones y claves`. Eje: transición desde tablas planas hacia diseño relacional mínimo; separación entre pacientes, mediciones y exposiciones; claves primarias, claves foráneas, relaciones uno a muchos y muchos a muchos; pruebas mínimas de identidad única y rechazo de mediciones huérfanas.
 - Actualización de `_toc.yml` y del glosario con `Entidad`, `Relación`, `Clave primaria` y `Clave foránea`.
+- Creación de la sección `Restricciones, índices y consultas reproducibles`. Eje: uso de `PRIMARY KEY`, `NOT NULL`, `CHECK`, `FOREIGN KEY`, índices por paciente/fecha, consultas parametrizadas y vistas como forma de conservar preguntas analíticas.
+- Actualización de `_toc.yml` y del glosario con `Restricción`, `Índice` y `Consulta reproducible`.
 
 - Apertura de la Unidad II con el capítulo contenedor `Tipos de datos para problemas biomédicos`. Eje: los tipos de datos como promesas operacionales y decisiones de representación, no como lista sintáctica de Python.
 - Creación de la sección `Números, unidades y mediciones`. Eje: una medición biomédica como valor numérico acompañado por unidad, regla de validez y significado de dominio; separación entre valor imposible, rango de referencia, alerta y dato faltante; patrón mínimo `tipo + validador`; ejemplo pedagógico de dosis por peso. Ejemplos de código verificados antes del commit.
@@ -193,14 +196,14 @@ Límite:
 
 Prioridad siguiente:
 
-1. Continuar con restricciones, índices y consultas reproducibles.
+1. Continuar con transición hacia APIs y análisis reproducibles.
 2. Mantener el patrón `tipo + validador` y la línea transversal `CODE CLEAN`.
 3. Revisar visualmente la nueva sección HTML si se va a publicar en GitHub Pages en este ciclo.
 
 Siguientes secciones candidatas:
 
-- Restricciones, índices y consultas reproducibles.
 - Transición hacia APIs y análisis reproducibles.
+- Contratos de entrada y salida en servicios mínimos.
 
 ## Riesgos activos
 
@@ -213,7 +216,7 @@ Siguientes secciones candidatas:
 
 Retomar por:
 
-1. `chapters/23-entidades-relaciones-claves.md` ya quedó creado y enlazado.
-2. Continuar con la sección posterior: restricciones, índices y consultas reproducibles.
+1. `chapters/24-restricciones-indices-consultas-reproducibles.md` ya quedó creado y enlazado.
+2. Continuar con la sección posterior: transición hacia APIs y análisis reproducibles.
 3. Mantener la línea `CODE CLEAN`: versión frágil, crítica, versión mejorada, salida esperada y prueba mínima.
 4. Build local validado invocando la CLI interna de Jupyter Book: `.\venv\Scripts\python.exe -c "from jupyter_book.cli.main import main; raise SystemExit(main(['build', '.']))"`.
