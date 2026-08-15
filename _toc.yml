@@ -37,6 +37,7 @@ parts:
           - file: chapters/22-archivos-tablas-almacenamiento-persistente
           - file: chapters/23-entidades-relaciones-claves
           - file: chapters/24-restricciones-indices-consultas-reproducibles
+          - file: chapters/25-apis-minimas-contratos-entrada-salida
   - caption: Apéndices
     chapters:
       - file: chapters/apendice-a-entorno

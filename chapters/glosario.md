@@ -6,6 +6,10 @@ Este glosario no reemplaza las explicaciones de cada capítulo. Su función es o
 
 Especificación finita, ordenada y verificable de transformaciones y decisiones que convierte entradas en salidas bajo reglas, restricciones y criterios de terminación.
 
+## API
+
+Frontera contractual que permite a un componente solicitar una operación a otro. Puede ser una función pública, un comando o un endpoint HTTP; lo esencial es que declare entrada, salida, errores y límites.
+
 ## Acumulador
 
 Variable o estructura que conserva información producida durante un recorrido. Puede guardar conteos, sumas, elementos filtrados, razones, errores o estados intermedios.
@@ -109,6 +113,14 @@ Bloque reutilizable de código que recibe entradas, ejecuta una operación y pue
 ## Contrato
 
 Promesa operacional de una función, regla o componente: qué entradas espera, qué salida entrega, qué casos cubre y qué límites no debe cruzar.
+
+## Contrato de entrada
+
+Descripción explícita de los campos, tipos, valores permitidos y condiciones que una solicitud debe cumplir antes de ejecutar una operación.
+
+## Contrato de salida
+
+Descripción explícita de la respuesta que una operación puede devolver, incluyendo estado, datos, identificadores, errores, razones y versión del contrato aplicado.
 
 ## Código
 
