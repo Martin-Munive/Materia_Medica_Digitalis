@@ -6,6 +6,10 @@ Este glosario no reemplaza las explicaciones de cada capítulo. Su función es o
 
 Especificación finita, ordenada y verificable de transformaciones y decisiones que convierte entradas en salidas bajo reglas, restricciones y criterios de terminación.
 
+## Análisis reproducible
+
+Cálculo cuya salida puede reconstruirse a partir de datos versionados, parámetros explícitos, consultas o reglas identificables, denominadores y resultado registrado.
+
 ## API
 
 Frontera contractual que permite a un componente solicitar una operación a otro. Puede ser una función pública, un comando o un endpoint HTTP; lo esencial es que declare entrada, salida, errores y límites.
@@ -37,6 +41,10 @@ Estructura de control que selecciona una rama de ejecución según una condició
 ## Consulta reproducible
 
 Pregunta escrita de forma explícita, parametrizada y repetible sobre una base de datos o tabla. Permite reconstruir criterios de selección, denominadores y resúmenes.
+
+## Ejecución de análisis
+
+Registro concreto de un análisis realizado: especificación usada, versión de datos, parámetros, resultado, denominador y metadatos suficientes para auditar o comparar una repetición.
 
 ## Dato
 
@@ -157,6 +165,10 @@ Espacio temporal entre un inicio y un fin. Puede estar cerrado, abierto, incompl
 ## Parámetro
 
 Nombre que representa una entrada esperada por una función. Un buen parámetro conserva la información necesaria sobre dominio, unidad o significado.
+
+## Resultado derivado
+
+Salida producida por una transformación, consulta, regla o análisis a partir de datos previos. Debe conservar trazabilidad proporcional a su uso posterior.
 
 ## Rama
 

@@ -46,6 +46,12 @@ Construir los capítulos iniciales sin infantilizar.
 Decisión estructural:
 Una página navegable no equivale automáticamente a un capítulo. Los temas introductorios que pertenecen a una misma unidad intelectual deben organizarse como secciones de un capítulo mayor. Esto evita que el libro parezca una sucesión de fragmentos breves y permite una estructura editorial normal, profunda y acumulativa.
 
+Convención de reporte:
+- los archivos numerados (`01-...`, `12-...`, `25-...`) son unidades de navegación y producción;
+- los capítulos editoriales son los contenedores intelectuales del libro;
+- al informar estado al usuario, usar capítulo editorial + sección interna, por ejemplo: `Capítulo II, sección 13: APIs mínimas y contratos de entrada/salida`;
+- no gastar trabajo en renombrar archivos si la numeración técnica ya funciona; la corrección necesaria es comunicacional y de continuidad.
+
 Capítulo inicial:
 - El lenguaje de las decisiones.
 
@@ -69,8 +75,8 @@ Estado 2026-08-01:
 - la primera unidad conceptual quedó cerrada con once secciones;
 - los ejemplos de código existentes fueron corregidos para incluir comentarios, salidas esperadas y aclaración cuando no imprimen salida visible;
 - la línea `CODE CLEAN` queda activa como disciplina transversal: versión ingenua, crítica técnica, versión mejorada, salida esperada, prueba mínima y lección transferible;
-- la Unidad II quedó iniciada con `Tipos de datos para problemas biomédicos`, `Números, unidades y mediciones`, `Texto libre, códigos y vocabularios controlados`, `Booleanos, estados e incertidumbre`, `Fechas, tiempos, intervalos y granularidad clínica`, `Ausencia de datos, valores centinela y marcadores especiales`, `Listas, diccionarios y registros`, `Tablas simples, limpieza y validación`, `Esquemas mínimos y validación formal`, `pandas como herramienta tabular controlada`, `Archivos, tablas de trabajo y almacenamiento persistente`, `Entidades, relaciones y claves`, `Restricciones, índices y consultas reproducibles` y `APIs mínimas y contratos de entrada/salida`;
-- el siguiente bloque debe continuar con análisis reproducibles.
+- la Unidad II quedó iniciada con `Tipos de datos para problemas biomédicos`, `Números, unidades y mediciones`, `Texto libre, códigos y vocabularios controlados`, `Booleanos, estados e incertidumbre`, `Fechas, tiempos, intervalos y granularidad clínica`, `Ausencia de datos, valores centinela y marcadores especiales`, `Listas, diccionarios y registros`, `Tablas simples, limpieza y validación`, `Esquemas mínimos y validación formal`, `pandas como herramienta tabular controlada`, `Archivos, tablas de trabajo y almacenamiento persistente`, `Entidades, relaciones y claves`, `Restricciones, índices y consultas reproducibles`, `APIs mínimas y contratos de entrada/salida` y `Análisis reproducibles`;
+- el siguiente bloque debe continuar con pipelines mínimos.
 
 ## Fase 2B. Tipos de datos para problemas biomédicos
 
@@ -94,6 +100,7 @@ Secciones iniciales:
 - Entidades, relaciones y claves.
 - Restricciones, índices y consultas reproducibles.
 - APIs mínimas y contratos de entrada/salida.
+- Análisis reproducibles.
 
 Criterio:
 - el tipo técnico de Python debe conectarse siempre con el contrato de dominio;

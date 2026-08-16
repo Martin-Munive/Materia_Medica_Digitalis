@@ -44,6 +44,16 @@ Documento rector agregado:
 - Build local verificado con la CLI interna de Jupyter Book cuando el wrapper `jupyter-book.exe` no entrega diagnóstico.
 - Workflow `deploy-book` actualizado para evitar advertencias de runtime Node.js deprecado en GitHub Actions.
 
+### Convención de reporte editorial
+
+El libro distingue entre capítulos editoriales y archivos/secciones numeradas.
+
+- Para trabajo interno, rutas, commits, `_toc.yml` y publicación, se pueden usar los nombres de archivo numerados: `01-...`, `12-...`, `25-...`.
+- Para reportar estado al usuario, no se debe llamar "capítulo 25" a un archivo numerado. Se debe informar como capítulo editorial y sección dentro de ese capítulo.
+- Estado vigente: `01-el-lenguaje-de-las-decisiones` es el Capítulo I y contiene 11 secciones; `12-tipos-datos-problemas-biomedicos` es el Capítulo II y contiene 14 secciones hechas hasta `26-analisis-reproducibles.md`.
+- Forma preferida de reporte: `Capítulo II, sección 13: APIs mínimas y contratos de entrada/salida`.
+- La convención no exige renombrar archivos ni reestructurar producción; solo corrige la forma de comunicación y continuidad editorial.
+
 ### Contenido publicable existente
 
 - Portada.
@@ -77,6 +87,7 @@ Documento rector agregado:
 - Undécima sección de la Unidad II: `Entidades, relaciones y claves`.
 - Duodécima sección de la Unidad II: `Restricciones, índices y consultas reproducibles`.
 - Decimotercera sección de la Unidad II: `APIs mínimas y contratos de entrada/salida`.
+- Decimocuarta sección de la Unidad II: `Análisis reproducibles`.
 - Apéndice A: entorno de trabajo.
 - Glosario vivo.
 
@@ -137,6 +148,8 @@ Cambios incorporados en el ciclo actual:
 - Actualización de `_toc.yml` y del glosario con `Restricción`, `Índice` y `Consulta reproducible`.
 - Creación de la sección `APIs mínimas y contratos de entrada/salida`. Eje: API como frontera contractual; validación de solicitudes antes de operar; separación entre endpoint, dominio y persistencia; respuestas estructuradas con estado, errores y versión de contrato.
 - Actualización de `_toc.yml` y del glosario con `API`, `Contrato de entrada` y `Contrato de salida`.
+- Creación de la sección `Análisis reproducibles`. Eje: diferencia entre resultado aislado y ejecución reconstruible; especificación de análisis, versión de datos, parámetros serializados, denominador, resultado derivado y comparación de ejecuciones.
+- Actualización de `_toc.yml` y del glosario con `Análisis reproducible`, `Ejecución de análisis` y `Resultado derivado`.
 
 - Apertura de la Unidad II con el capítulo contenedor `Tipos de datos para problemas biomédicos`. Eje: los tipos de datos como promesas operacionales y decisiones de representación, no como lista sintáctica de Python.
 - Creación de la sección `Números, unidades y mediciones`. Eje: una medición biomédica como valor numérico acompañado por unidad, regla de validez y significado de dominio; separación entre valor imposible, rango de referencia, alerta y dato faltante; patrón mínimo `tipo + validador`; ejemplo pedagógico de dosis por peso. Ejemplos de código verificados antes del commit.
@@ -199,14 +212,14 @@ Límite:
 
 Prioridad siguiente:
 
-1. Continuar con análisis reproducibles.
+1. Continuar con pipelines mínimos.
 2. Mantener el patrón `tipo + validador` y la línea transversal `CODE CLEAN`.
 3. Revisar visualmente la nueva sección HTML si se va a publicar en GitHub Pages en este ciclo.
 
 Siguientes secciones candidatas:
 
-- Análisis reproducibles.
-- Registro de parámetros, consultas y resultados.
+- Pipelines mínimos.
+- Encadenamiento de carga, validación, análisis y reporte.
 
 ## Riesgos activos
 
@@ -219,7 +232,7 @@ Siguientes secciones candidatas:
 
 Retomar por:
 
-1. `chapters/25-apis-minimas-contratos-entrada-salida.md` ya quedó creado y enlazado.
-2. Continuar con la sección posterior: análisis reproducibles.
+1. `chapters/26-analisis-reproducibles.md` ya quedó creado y enlazado.
+2. Continuar con la sección posterior: pipelines mínimos.
 3. Mantener la línea `CODE CLEAN`: versión frágil, crítica, versión mejorada, salida esperada y prueba mínima.
 4. Build local validado invocando la CLI interna de Jupyter Book: `.\venv\Scripts\python.exe -c "from jupyter_book.cli.main import main; raise SystemExit(main(['build', '.']))"`.

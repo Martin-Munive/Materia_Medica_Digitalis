@@ -121,14 +121,15 @@ Implementado:
 - Sección publicable sobre entidades, relaciones y claves como diseño mínimo previo a consultas relacionales reproducibles.
 - Sección publicable sobre restricciones, índices y consultas reproducibles como cierre mínimo de entrada a bases relacionales.
 - Sección publicable sobre APIs mínimas y contratos de entrada/salida como puente hacia sistemas reproducibles.
+- Sección publicable sobre análisis reproducibles como registro de datos, parámetros, consultas, resultados y denominadores.
 - Glosario vivo.
 - Apéndice de entorno.
 - Documentación editorial y técnica de control del proyecto.
 
 Siguiente dirección editorial:
 
-- continuar la segunda unidad con análisis reproducibles;
-- preparar registro de datos, consultas, parámetros y resultados reconstruibles;
+- continuar la segunda unidad con pipelines mínimos;
+- preparar encadenamiento de carga, validación, análisis y reporte sin perder trazabilidad entre etapas;
 - mantener la línea transversal `CODE CLEAN`: versión ingenua, crítica técnica, versión mejorada, salida esperada y prueba mínima.
 
 ## Instalación local
