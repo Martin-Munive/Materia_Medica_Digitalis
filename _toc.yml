@@ -39,6 +39,7 @@ parts:
           - file: chapters/24-restricciones-indices-consultas-reproducibles
           - file: chapters/25-apis-minimas-contratos-entrada-salida
           - file: chapters/26-analisis-reproducibles
+          - file: chapters/27-pipelines-minimos
   - caption: Apéndices
     chapters:
       - file: chapters/apendice-a-entorno

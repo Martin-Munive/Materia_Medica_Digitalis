@@ -14,6 +14,10 @@ Cálculo cuya salida puede reconstruirse a partir de datos versionados, parámet
 
 Frontera contractual que permite a un componente solicitar una operación a otro. Puede ser una función pública, un comando o un endpoint HTTP; lo esencial es que declare entrada, salida, errores y límites.
 
+## Artefacto
+
+Salida intermedia o final producida por una etapa de trabajo: filas crudas, tabla normalizada, rechazos, resultado, reporte o archivo. Debe tener nombre y propósito claros dentro del flujo.
+
 ## Acumulador
 
 Variable o estructura que conserva información producida durante un recorrido. Puede guardar conteos, sumas, elementos filtrados, razones, errores o estados intermedios.
@@ -102,6 +106,10 @@ Valor permitido dentro de un conjunto explícito de estados. Evita que condicion
 
 Cosa del dominio que necesita identidad propia dentro de un sistema, como paciente, muestra, medición, evento, fármaco, regla o fuente.
 
+## Etapa
+
+Paso delimitado dentro de un pipeline. Recibe una entrada definida, aplica una responsabilidad concreta y produce una salida inspeccionable.
+
 ## Marcador especial
 
 Símbolo, texto o número usado para indicar una condición distinta al valor ordinario, como pendiente, inválido, no aplica o no medido. Debe traducirse antes de calcular.
@@ -165,6 +173,10 @@ Espacio temporal entre un inicio y un fin. Puede estar cerrado, abierto, incompl
 ## Parámetro
 
 Nombre que representa una entrada esperada por una función. Un buen parámetro conserva la información necesaria sobre dominio, unidad o significado.
+
+## Pipeline
+
+Secuencia ordenada de etapas que transforma entradas en salidas, conservando contratos, conteos, errores y artefactos suficientes para auditar el flujo.
 
 ## Resultado derivado
 
