@@ -123,14 +123,16 @@ Implementado:
 - Sección publicable sobre APIs mínimas y contratos de entrada/salida como puente hacia sistemas reproducibles.
 - Sección publicable sobre análisis reproducibles como registro de datos, parámetros, consultas, resultados y denominadores.
 - Sección publicable sobre pipelines mínimos como encadenamiento de carga, normalización, validación, análisis y reporte.
+- Sección publicable sobre validación por lotes y reportes de calidad de datos.
+- Sección publicable sobre exportación, auditoría y artefactos compartibles mediante CSV, JSON, huellas de contenido y manifiestos verificables.
 - Glosario vivo.
 - Apéndice de entorno.
 - Documentación editorial y técnica de control del proyecto.
 
 Siguiente dirección editorial:
 
-- continuar la segunda unidad con validación por lotes y reportes de calidad;
-- preparar métricas de completitud, errores, advertencias y calidad de datos por lote;
+- cerrar la segunda unidad con la integración del dato biomédico en un flujo verificable;
+- preparar la auditoría GLOBAL de cierre antes de abrir el Capítulo III;
 - mantener la línea transversal `CODE CLEAN`: versión ingenua, crítica técnica, versión mejorada, salida esperada y prueba mínima.
 
 ## Instalación local

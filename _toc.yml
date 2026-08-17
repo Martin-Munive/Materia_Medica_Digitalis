@@ -40,6 +40,8 @@ parts:
           - file: chapters/25-apis-minimas-contratos-entrada-salida
           - file: chapters/26-analisis-reproducibles
           - file: chapters/27-pipelines-minimos
+          - file: chapters/28-validacion-lotes-reportes-calidad
+          - file: chapters/29-exportacion-auditoria-artefactos-compartibles
   - caption: Apéndices
     chapters:
       - file: chapters/apendice-a-entorno

@@ -18,6 +18,22 @@ Frontera contractual que permite a un componente solicitar una operación a otro
 
 Salida intermedia o final producida por una etapa de trabajo: filas crudas, tabla normalizada, rechazos, resultado, reporte o archivo. Debe tener nombre y propósito claros dentro del flujo.
 
+## Artefacto compartible
+
+Salida persistente cuyo formato, propósito, versión y contrato permiten que otra persona o proceso la inspeccione o consuma. Que sea técnicamente compartible no significa que sea pública ni que carezca de información sensible.
+
+## Auditoría de artefactos
+
+Comparación entre los archivos actuales y un contrato o manifiesto previo para detectar ausencias, cambios de tamaño, diferencias de contenido y otras rupturas de integridad. No demuestra por sí sola validez clínica ni autorización.
+
+## Huella de contenido
+
+Resumen de longitud fija calculado a partir de los bytes de un artefacto, por ejemplo mediante SHA-256. Permite detectar cambios respecto a una huella conocida, pero no prueba autoría, identidad ni corrección del contenido.
+
+## Manifiesto de exportación
+
+Archivo que describe un paquete exportado mediante identificador de lote, versiones, conteos, instante de creación y lista de artefactos con tamaño y huella. Funciona como índice verificable de la exportación.
+
 ## Acumulador
 
 Variable o estructura que conserva información producida durante un recorrido. Puede guardar conteos, sumas, elementos filtrados, razones, errores o estados intermedios.
@@ -69,6 +85,10 @@ Representación de tiempo acompañada por tipo de evento, precisión, estado, fu
 ## Campo
 
 Parte nombrada de un registro, como `valor`, `unidad`, `estado` o `fuente`. Un campo debe tener significado estable dentro del contrato de la observación.
+
+## Calidad de datos
+
+Grado en que un conjunto de datos es suficiente para una operación concreta según completitud, consistencia, validez, trazabilidad, unidad, estado y reglas del dominio.
 
 ## Clave
 
@@ -181,6 +201,10 @@ Secuencia ordenada de etapas que transforma entradas en salidas, conservando con
 ## Resultado derivado
 
 Salida producida por una transformación, consulta, regla o análisis a partir de datos previos. Debe conservar trazabilidad proporcional a su uso posterior.
+
+## Reporte de calidad
+
+Resumen estructurado de la evaluación de un lote: conteos, proporciones, errores, advertencias, completitud y estado operativo resultante.
 
 ## Rama
 
@@ -357,6 +381,10 @@ Serie de valores verdadero/falso usada para seleccionar filas de una tabla. En d
 ## Limpieza de datos
 
 Transformación documentada de valores crudos para hacerlos comparables e interpretables sin borrar su origen, estado o razón de cambio.
+
+## Lote
+
+Conjunto de registros procesados como unidad operativa. Un lote puede contener filas válidas, rechazos, advertencias y métricas agregadas de calidad.
 
 ## Tabla
 

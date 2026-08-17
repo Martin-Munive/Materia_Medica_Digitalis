@@ -32,6 +32,7 @@ Documento rector agregado:
 - `docs/editorial_thesis_scope.md`: tesis editorial, alcance máximo, función formativa y valor reputacional esperado.
 - `docs/global_integrity_audit.md`: auditoría GLOBAL inaugural del libro como obra completa en curso.
 - `docs/github_actions_maintenance.md`: mantenimiento del workflow de GitHub Pages y regla frente a deprecaciones de runtime.
+- `docs/book_architecture_draft.md`: borrador operativo v0.1 de arquitectura editorial, cierre propuesto del Capítulo II y proyección temporal de capítulos.
 
 ## Estado actual verificado
 
@@ -50,9 +51,41 @@ El libro distingue entre capítulos editoriales y archivos/secciones numeradas.
 
 - Para trabajo interno, rutas, commits, `_toc.yml` y publicación, se pueden usar los nombres de archivo numerados: `01-...`, `12-...`, `25-...`.
 - Para reportar estado al usuario, no se debe llamar "capítulo 25" a un archivo numerado. Se debe informar como capítulo editorial y sección dentro de ese capítulo.
-- Estado vigente: `01-el-lenguaje-de-las-decisiones` es el Capítulo I y contiene 11 secciones; `12-tipos-datos-problemas-biomedicos` es el Capítulo II y contiene 15 secciones hechas hasta `27-pipelines-minimos.md`.
+- Estado vigente: `01-el-lenguaje-de-las-decisiones` es el Capítulo I y contiene 11 secciones; `12-tipos-datos-problemas-biomedicos` es el Capítulo II y contiene 17 secciones hechas hasta `29-exportacion-auditoria-artefactos-compartibles.md`.
 - Forma preferida de reporte: `Capítulo II, sección 13: APIs mínimas y contratos de entrada/salida`.
 - La convención no exige renombrar archivos ni reestructurar producción; solo corrige la forma de comunicación y continuidad editorial.
+
+### Modalidad autónoma opt-in
+
+`MMD-AUTO` es una modalidad explícita de producción editorial autónoma. No está activa por defecto.
+
+Activación:
+
+- el usuario debe pedirla de forma clara, por ejemplo: `MMD-AUTO`, `continúa en modo autónomo`, `cierra el Capítulo II en modo autónomo` o equivalente.
+
+Alcance ordinario permitido cuando está activa:
+
+- redactar la siguiente sección prevista en la arquitectura editorial;
+- actualizar `_toc.yml`, glosario, `README.md`, `project_status.md`, `roadmap.md` y documentación de continuidad;
+- ejecutar bloques de código, `git diff --check` y build local;
+- hacer commit local con mensaje coherente en español;
+- si el usuario incluyó publicación en la instrucción de activación, sincronizar al repositorio público, hacer commit público, push y verificar deploy;
+- abrir, actualizar y cerrar handoffs.
+
+Pausa obligatoria antes de operar:
+
+- cambiar título, subtítulo, tesis central, estructura mayor o número previsto de secciones de un capítulo;
+- abrir un capítulo nuevo sin auditoría GLOBAL cuando la arquitectura la exige;
+- incorporar dependencias, frameworks, herramientas externas o recursos visuales nuevos;
+- publicar material que pueda exponer contenido interno, privado o no publicable;
+- resolver una contradicción entre documentos rectores;
+- modificar reglas de operación, publicación o seguridad.
+
+Regla de comunicación:
+
+- en `MMD-AUTO`, no pedir autorización para cada sección ordinaria si ya coincide con la arquitectura aprobada;
+- sí informar avances, commits, pushes y deploys con evidencia;
+- reportar siempre al usuario con la convención acordada: capítulo editorial + sección interna.
 
 ### Contenido publicable existente
 
@@ -89,6 +122,8 @@ El libro distingue entre capítulos editoriales y archivos/secciones numeradas.
 - Decimotercera sección de la Unidad II: `APIs mínimas y contratos de entrada/salida`.
 - Decimocuarta sección de la Unidad II: `Análisis reproducibles`.
 - Decimoquinta sección de la Unidad II: `Pipelines mínimos`.
+- Decimosexta sección de la Unidad II: `Validación por lotes y reportes de calidad`.
+- Decimoséptima sección de la Unidad II: `Exportación, auditoría y artefactos compartibles`.
 - Apéndice A: entorno de trabajo.
 - Glosario vivo.
 
@@ -153,6 +188,10 @@ Cambios incorporados en el ciclo actual:
 - Actualización de `_toc.yml` y del glosario con `Análisis reproducible`, `Ejecución de análisis` y `Resultado derivado`.
 - Creación de la sección `Pipelines mínimos`. Eje: encadenamiento explícito de carga, normalización, validación, análisis y reporte; conservación de artefactos intermedios, conteos, rechazos y denominadores.
 - Actualización de `_toc.yml` y del glosario con `Artefacto`, `Etapa` y `Pipeline`.
+- Creación de la sección `Validación por lotes y reportes de calidad`. Eje: evaluación agregada de registros biomédicos; separación de errores y advertencias; conteos por razón, completitud por campo, proporción válida y estado operativo del lote.
+- Actualización de `_toc.yml` y del glosario con `Calidad de datos`, `Lote` y `Reporte de calidad`.
+- Creación de la sección `Exportación, auditoría y artefactos compartibles`. Eje: separación entre serialización y contrato de exportación; CSV para tablas, JSON para reportes, SHA-256 para integridad, manifiesto verificable, respaldo consistente de SQLite y distinción entre compartible y publicable.
+- Actualización de `_toc.yml` y del glosario con `Artefacto compartible`, `Auditoría de artefactos`, `Huella de contenido` y `Manifiesto de exportación`.
 
 - Apertura de la Unidad II con el capítulo contenedor `Tipos de datos para problemas biomédicos`. Eje: los tipos de datos como promesas operacionales y decisiones de representación, no como lista sintáctica de Python.
 - Creación de la sección `Números, unidades y mediciones`. Eje: una medición biomédica como valor numérico acompañado por unidad, regla de validez y significado de dominio; separación entre valor imposible, rango de referencia, alerta y dato faltante; patrón mínimo `tipo + validador`; ejemplo pedagógico de dosis por peso. Ejemplos de código verificados antes del commit.
@@ -215,14 +254,20 @@ Límite:
 
 Prioridad siguiente:
 
-1. Continuar con validación por lotes y reportes de calidad.
+1. Redactar el cierre integrador del Capítulo II: del dato biomédico al flujo verificable.
 2. Mantener el patrón `tipo + validador` y la línea transversal `CODE CLEAN`.
 3. Revisar visualmente la nueva sección HTML si se va a publicar en GitHub Pages en este ciclo.
 
+Decisión estructural vigente:
+
+- El Capítulo II se propone con 18 secciones.
+- Ya hay 17 secciones hechas.
+- Falta 1 sección para cerrar el Capítulo II.
+- Al cerrar la sección 18 debe ejecutarse una auditoría GLOBAL antes de abrir el Capítulo III.
+
 Siguientes secciones candidatas:
 
-- Validación por lotes.
-- Reportes de calidad de datos.
+- Cierre integrador del Capítulo II.
 
 ## Riesgos activos
 
@@ -235,7 +280,7 @@ Siguientes secciones candidatas:
 
 Retomar por:
 
-1. `chapters/27-pipelines-minimos.md` ya quedó creado y enlazado.
-2. Continuar con la sección posterior: validación por lotes y reportes de calidad.
+1. `chapters/29-exportacion-auditoria-artefactos-compartibles.md` ya quedó creado y enlazado.
+2. Continuar con la sección 18: cierre integrador, del dato biomédico al flujo verificable.
 3. Mantener la línea `CODE CLEAN`: versión frágil, crítica, versión mejorada, salida esperada y prueba mínima.
 4. Build local validado invocando la CLI interna de Jupyter Book: `.\venv\Scripts\python.exe -c "from jupyter_book.cli.main import main; raise SystemExit(main(['build', '.']))"`.
