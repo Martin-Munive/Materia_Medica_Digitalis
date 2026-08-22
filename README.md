@@ -116,7 +116,7 @@ Implementado:
 - Presaberes mínimos.
 - Primera unidad conceptual: `El lenguaje de las decisiones`.
 - Secciones publicables sobre algoritmos, pasos, variables, estados, excepciones, condicionales, bucles, funciones, seguridad del cálculo, funciones puras y pruebas mínimas.
-- Segunda unidad iniciada: `Tipos de datos para problemas biomédicos`.
+- Segunda unidad cerrada: `Tipos de datos para problemas biomédicos`, con 18 secciones publicadas.
 - Secciones publicables sobre números, unidades, mediciones, texto libre, códigos, vocabularios controlados, booleanos, estados, incertidumbre, fechas, tiempos, intervalos, granularidad clínica, ausencia de datos, valores centinela, listas, diccionarios, registros, tablas simples, limpieza, validación, esquemas mínimos, validación formal, `pandas` como herramienta tabular controlada y transición hacia almacenamiento persistente.
 - Sección publicable sobre entidades, relaciones y claves como diseño mínimo previo a consultas relacionales reproducibles.
 - Sección publicable sobre restricciones, índices y consultas reproducibles como cierre mínimo de entrada a bases relacionales.
@@ -126,13 +126,13 @@ Implementado:
 - Sección publicable sobre validación por lotes y reportes de calidad de datos.
 - Sección publicable sobre exportación, auditoría y artefactos compartibles mediante CSV, JSON, huellas de contenido y manifiestos verificables.
 - Cierre integrador del Capítulo II: transformación de un lote biomédico crudo en un flujo verificable con contratos, rechazos, análisis, calidad y artefactos auditables.
+- Auditoría GLOBAL de cierre del Capítulo II completada y aprobada.
 - Glosario vivo.
 - Apéndice de entorno.
 - Documentación editorial y técnica de control del proyecto.
 
 Siguiente dirección editorial:
 
-- ejecutar y documentar la auditoría GLOBAL de cierre del Capítulo II;
 - resolver el nombre operativo y la apertura del Capítulo III antes de redactar su primera sección;
 - mantener la línea transversal `CODE CLEAN`: versión ingenua, crítica técnica, versión mejorada, salida esperada y prueba mínima.
 
