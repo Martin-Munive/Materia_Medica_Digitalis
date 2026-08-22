@@ -202,8 +202,8 @@ _static/custom.css
 
 ## Roadmap público
 
-1. Completar la unidad II sobre tipos de datos para problemas biomédicos.
-2. Construir capítulos sobre listas, diccionarios, registros, tablas simples, limpieza, validación, esquemas y herramientas tabulares.
+1. Definir el nombre operativo, la pregunta rectora y el artefacto acumulativo del Capítulo III.
+2. Diseñar su progresión antes de redactar la primera sección.
 3. Reintroducir complejidad, estructuras de datos y pruebas desde la nueva arquitectura editorial.
 4. Avanzar hacia algoritmos clásicos con casos biomédicos concretos.
 5. Conectar datos clínicos, bioinformática, genética computacional, señales, texto e imagen biomédica.
