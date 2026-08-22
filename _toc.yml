@@ -42,6 +42,7 @@ parts:
           - file: chapters/27-pipelines-minimos
           - file: chapters/28-validacion-lotes-reportes-calidad
           - file: chapters/29-exportacion-auditoria-artefactos-compartibles
+          - file: chapters/30-cierre-dato-biomedico-flujo-verificable
   - caption: Apéndices
     chapters:
       - file: chapters/apendice-a-entorno

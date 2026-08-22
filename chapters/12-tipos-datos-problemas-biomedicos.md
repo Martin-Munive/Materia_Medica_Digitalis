@@ -53,7 +53,13 @@ Por eso esta unidad irá de lo simple a lo responsable:
 4. **Fechas, tiempos e intervalos.** El tiempo clínico tiene granularidad, zona, duración y orden.
 5. **Ausencia y datos faltantes.** `None`, centinelas y estructuras explícitas.
 6. **Listas, diccionarios y registros.** Cómo agrupar observaciones sin perder significado.
-7. **Tipo + validador.** El patrón mínimo para que una representación no mienta.
+7. **Tablas, esquemas y validación formal.** Cómo pasar de una forma visible a un contrato comprobable.
+8. **Herramientas tabulares y persistencia.** Cómo trabajar, guardar y recuperar sin confundir capas.
+9. **Entidades, relaciones, restricciones y consultas.** Cómo proteger identidad e invariantes.
+10. **APIs y análisis reproducibles.** Cómo declarar fronteras, parámetros y denominadores.
+11. **Pipelines y calidad por lotes.** Cómo conservar etapas, rechazos y estado operativo.
+12. **Exportación y auditoría.** Cómo producir artefactos compartibles sin confundirlos con datos públicos.
+13. **Flujo verificable.** Cómo integrar el recorrido completo y declarar sus límites.
 
 ## Mapa de decisión
 
@@ -75,9 +81,11 @@ En esta unidad los ejemplos seguirán siendo miniaturas pedagógicas. No son esc
 
 El objetivo no es usar tipos más complicados. Es usar el tipo mínimo que preserve la promesa del dato.
 
-## Siguiente paso
+## Cierre de la unidad
 
-El primer caso será el más común: números. En medicina y ciencias de la vida, casi todo parece empezar como número —peso, dosis, concentración, presión, edad, tiempo, temperatura—. Pero un número desnudo no sabe qué representa. La siguiente sección muestra por qué una medición necesita unidad, rango, precisión y validación antes de entrar en una decisión.
+El recorrido comienza con el caso más común —un número que necesita unidad y validación— y termina con una capacidad integrada: transformar un lote crudo en un flujo que conserva contratos, rechazos, denominadores, calidad y artefactos auditables.
+
+Esa capacidad prepara el Capítulo III. Los algoritmos de búsqueda, ordenamiento, conteo, hashing y optimización solo pueden ser defendibles si operan sobre representaciones que no han perdido identidad, unidad, ausencia ni procedencia.
 
 ## Bibliografía y fuentes
 

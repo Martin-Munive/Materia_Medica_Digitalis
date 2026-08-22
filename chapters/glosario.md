@@ -146,6 +146,10 @@ Condición que interrumpe, modifica o degrada el flujo esperado de un procedimie
 
 Bloque reutilizable de código que recibe entradas, ejecuta una operación y puede devolver una salida. En este libro, una función también será tratada como unidad de diseño y verificación.
 
+## Flujo verificable
+
+Proceso compuesto por etapas con contratos explícitos, artefactos identificables y controles que permiten reconstruir cómo una entrada llegó a convertirse en una salida. Conserva valores aceptados, rechazos, versiones, denominadores y límites proporcionales a su uso.
+
 ## Contrato
 
 Promesa operacional de una función, regla o componente: qué entradas espera, qué salida entrega, qué casos cubre y qué límites no debe cruzar.

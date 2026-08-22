@@ -125,14 +125,15 @@ Implementado:
 - Sección publicable sobre pipelines mínimos como encadenamiento de carga, normalización, validación, análisis y reporte.
 - Sección publicable sobre validación por lotes y reportes de calidad de datos.
 - Sección publicable sobre exportación, auditoría y artefactos compartibles mediante CSV, JSON, huellas de contenido y manifiestos verificables.
+- Cierre integrador del Capítulo II: transformación de un lote biomédico crudo en un flujo verificable con contratos, rechazos, análisis, calidad y artefactos auditables.
 - Glosario vivo.
 - Apéndice de entorno.
 - Documentación editorial y técnica de control del proyecto.
 
 Siguiente dirección editorial:
 
-- cerrar la segunda unidad con la integración del dato biomédico en un flujo verificable;
-- preparar la auditoría GLOBAL de cierre antes de abrir el Capítulo III;
+- ejecutar y documentar la auditoría GLOBAL de cierre del Capítulo II;
+- resolver el nombre operativo y la apertura del Capítulo III antes de redactar su primera sección;
 - mantener la línea transversal `CODE CLEAN`: versión ingenua, crítica técnica, versión mejorada, salida esperada y prueba mínima.
 
 ## Instalación local

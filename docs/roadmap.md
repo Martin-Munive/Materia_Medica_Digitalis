@@ -79,8 +79,8 @@ Estado 2026-08-01:
 - la primera unidad conceptual quedó cerrada con once secciones;
 - los ejemplos de código existentes fueron corregidos para incluir comentarios, salidas esperadas y aclaración cuando no imprimen salida visible;
 - la línea `CODE CLEAN` queda activa como disciplina transversal: versión ingenua, crítica técnica, versión mejorada, salida esperada, prueba mínima y lección transferible;
-- la Unidad II quedó iniciada con `Tipos de datos para problemas biomédicos`, `Números, unidades y mediciones`, `Texto libre, códigos y vocabularios controlados`, `Booleanos, estados e incertidumbre`, `Fechas, tiempos, intervalos y granularidad clínica`, `Ausencia de datos, valores centinela y marcadores especiales`, `Listas, diccionarios y registros`, `Tablas simples, limpieza y validación`, `Esquemas mínimos y validación formal`, `pandas como herramienta tabular controlada`, `Archivos, tablas de trabajo y almacenamiento persistente`, `Entidades, relaciones y claves`, `Restricciones, índices y consultas reproducibles`, `APIs mínimas y contratos de entrada/salida`, `Análisis reproducibles`, `Pipelines mínimos`, `Validación por lotes y reportes de calidad` y `Exportación, auditoría y artefactos compartibles`;
-- el siguiente bloque debe cerrar el capítulo integrando el dato biomédico en un flujo verificable.
+- la Unidad II quedó cerrada con `Tipos de datos para problemas biomédicos`, `Números, unidades y mediciones`, `Texto libre, códigos y vocabularios controlados`, `Booleanos, estados e incertidumbre`, `Fechas, tiempos, intervalos y granularidad clínica`, `Ausencia de datos, valores centinela y marcadores especiales`, `Listas, diccionarios y registros`, `Tablas simples, limpieza y validación`, `Esquemas mínimos y validación formal`, `pandas como herramienta tabular controlada`, `Archivos, tablas de trabajo y almacenamiento persistente`, `Entidades, relaciones y claves`, `Restricciones, índices y consultas reproducibles`, `APIs mínimas y contratos de entrada/salida`, `Análisis reproducibles`, `Pipelines mínimos`, `Validación por lotes y reportes de calidad`, `Exportación, auditoría y artefactos compartibles` y `Cierre integrador: del dato biomédico al flujo verificable`;
+- el siguiente bloque es la auditoría GLOBAL de cierre antes de abrir el Capítulo III.
 
 ## Fase 2B. Tipos de datos para problemas biomédicos
 
@@ -111,9 +111,9 @@ Secciones iniciales:
 - Cierre integrador: del dato biomédico al flujo verificable.
 
 Decisión operativa v0.1:
-- el Capítulo II debe cerrar en 18 secciones, salvo hallazgo fuerte de auditoría;
-- desde el estado actual, falta 1 sección del Capítulo II;
-- al cerrar la sección 18, debe ejecutarse auditoría GLOBAL antes de abrir el Capítulo III.
+- el Capítulo II cerró en 18 secciones;
+- la sección 18 integra el recorrido desde datos crudos hasta un flujo verificable;
+- debe ejecutarse auditoría GLOBAL antes de abrir el Capítulo III.
 
 Criterio:
 - el tipo técnico de Python debe conectarse siempre con el contrato de dominio;

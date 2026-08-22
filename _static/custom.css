@@ -171,13 +171,13 @@
 }
 
 .definition-block {
-  border-left: 4px solid #111827;
+  border-left: 4px solid currentColor;
   margin: 1.5rem 0;
   padding: 0.2rem 0 0.2rem 1rem;
 }
 
 .definition-block strong {
-  color: #111827;
+  color: inherit;
 }
 
 @media (max-width: 900px) {
