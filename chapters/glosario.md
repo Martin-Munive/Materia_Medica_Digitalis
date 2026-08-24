@@ -194,6 +194,22 @@ Colección ordenada de elementos. Es útil para representar secuencias, conjunto
 
 Espacio temporal entre un inicio y un fin. Puede estar cerrado, abierto, incompleto o no calculable según la disponibilidad y precisión de sus límites.
 
+## Costo algorítmico
+
+Cantidad de recursos que requiere un algoritmo, como comparaciones, tiempo, memoria, accesos a disco o transferencias. Debe analizarse según el tamaño de la entrada y no confundirse con utilidad o seguridad biomédica.
+
+## Instancia de un problema
+
+Entrada concreta sobre la que se ejecuta un algoritmo. El problema describe una familia de entradas y salidas; la instancia contiene los valores particulares de una ejecución.
+
+## Precondición
+
+Propiedad que debe cumplirse antes de ejecutar un algoritmo para que su contrato sea aplicable, como identificadores únicos, datos ordenados o unidades compatibles.
+
+## Problema computacional
+
+Especificación de una familia de entradas, una salida esperada y las propiedades que conectan ambas. Puede admitir varios algoritmos con costos y precondiciones diferentes.
+
 ## Parámetro
 
 Nombre que representa una entrada esperada por una función. Un buen parámetro conserva la información necesaria sobre dominio, unidad o significado.

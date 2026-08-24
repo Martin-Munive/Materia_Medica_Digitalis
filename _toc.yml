@@ -43,6 +43,11 @@ parts:
           - file: chapters/28-validacion-lotes-reportes-calidad
           - file: chapters/29-exportacion-auditoria-artefactos-compartibles
           - file: chapters/30-cierre-dato-biomedico-flujo-verificable
+  - caption: III. Algoritmos fundamentales con lectura biomédica
+    chapters:
+      - file: chapters/31-algoritmos-fundamentales-lectura-biomedica
+        sections:
+          - file: chapters/32-de-datos-a-algoritmos
   - caption: Apéndices
     chapters:
       - file: chapters/apendice-a-entorno

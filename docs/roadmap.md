@@ -80,7 +80,8 @@ Estado 2026-08-01:
 - los ejemplos de código existentes fueron corregidos para incluir comentarios, salidas esperadas y aclaración cuando no imprimen salida visible;
 - la línea `CODE CLEAN` queda activa como disciplina transversal: versión ingenua, crítica técnica, versión mejorada, salida esperada, prueba mínima y lección transferible;
 - la Unidad II quedó cerrada con `Tipos de datos para problemas biomédicos`, `Números, unidades y mediciones`, `Texto libre, códigos y vocabularios controlados`, `Booleanos, estados e incertidumbre`, `Fechas, tiempos, intervalos y granularidad clínica`, `Ausencia de datos, valores centinela y marcadores especiales`, `Listas, diccionarios y registros`, `Tablas simples, limpieza y validación`, `Esquemas mínimos y validación formal`, `pandas como herramienta tabular controlada`, `Archivos, tablas de trabajo y almacenamiento persistente`, `Entidades, relaciones y claves`, `Restricciones, índices y consultas reproducibles`, `APIs mínimas y contratos de entrada/salida`, `Análisis reproducibles`, `Pipelines mínimos`, `Validación por lotes y reportes de calidad`, `Exportación, auditoría y artefactos compartibles` y `Cierre integrador: del dato biomédico al flujo verificable`;
-- el siguiente bloque es la auditoría GLOBAL de cierre antes de abrir el Capítulo III.
+- la auditoría GLOBAL de cierre fue aprobada y el Capítulo III se abrió como `Algoritmos fundamentales con lectura biomédica`;
+- la primera sección, `De los datos a los algoritmos`, fija problema computacional, instancia, precondición, propiedad, costo y un registro biomédico sintético acumulativo.
 
 ## Fase 2B. Tipos de datos para problemas biomédicos
 
@@ -113,7 +114,7 @@ Secciones iniciales:
 Decisión operativa v0.1:
 - el Capítulo II cerró en 18 secciones;
 - la sección 18 integra el recorrido desde datos crudos hasta un flujo verificable;
-- debe ejecutarse auditoría GLOBAL antes de abrir el Capítulo III.
+- la auditoría GLOBAL de cierre fue ejecutada y aprobada antes de abrir el Capítulo III.
 
 Criterio:
 - el tipo técnico de Python debe conectarse siempre con el contrato de dominio;
@@ -121,6 +122,12 @@ Criterio:
 - los datos deben conservar unidad, razón, estado o trazabilidad cuando la decisión posterior lo necesite.
 
 ## Fase 3. Algoritmos clásicos con lectura biomédica
+
+Estado 2026-08-24:
+- nombre editorial adoptado: `Algoritmos fundamentales con lectura biomédica`;
+- capítulo abierto con 1 de 12 secciones;
+- artefacto acumulativo: registro biomédico sintético, con primer escenario oncológico educativo;
+- siguiente sección: búsqueda lineal.
 
 Temas:
 - búsqueda lineal, binaria y búsqueda en espacios de estados;

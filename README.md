@@ -127,13 +127,15 @@ Implementado:
 - Sección publicable sobre exportación, auditoría y artefactos compartibles mediante CSV, JSON, huellas de contenido y manifiestos verificables.
 - Cierre integrador del Capítulo II: transformación de un lote biomédico crudo en un flujo verificable con contratos, rechazos, análisis, calidad y artefactos auditables.
 - Auditoría GLOBAL de cierre del Capítulo II completada y aprobada.
+- Capítulo III abierto como `Algoritmos fundamentales con lectura biomédica`.
+- Primera sección del Capítulo III: `De los datos a los algoritmos`, con problema computacional, precondiciones, propiedades, costo y registro biomédico sintético acumulativo.
 - Glosario vivo.
 - Apéndice de entorno.
 - Documentación editorial y técnica de control del proyecto.
 
 Siguiente dirección editorial:
 
-- resolver el nombre operativo y la apertura del Capítulo III antes de redactar su primera sección;
+- desarrollar la búsqueda lineal como segunda sección del Capítulo III;
 - mantener la línea transversal `CODE CLEAN`: versión ingenua, crítica técnica, versión mejorada, salida esperada y prueba mínima.
 
 ## Instalación local
@@ -202,10 +204,10 @@ _static/custom.css
 
 ## Roadmap público
 
-1. Definir el nombre operativo, la pregunta rectora y el artefacto acumulativo del Capítulo III.
-2. Diseñar su progresión antes de redactar la primera sección.
-3. Reintroducir complejidad, estructuras de datos y pruebas desde la nueva arquitectura editorial.
-4. Avanzar hacia algoritmos clásicos con casos biomédicos concretos.
+1. Desarrollar búsqueda lineal sobre el registro biomédico sintético.
+2. Continuar con búsqueda binaria, conteo, hashing, ordenamiento y complejidad.
+3. Mantener problema, representación, propiedad, costo y límite en cada algoritmo.
+4. Avanzar hacia recursión, estrategias voraces, programación dinámica y grafos.
 5. Conectar datos clínicos, bioinformática, genética computacional, señales, texto e imagen biomédica.
 6. Consolidar la progresión hacia sistemas responsables, frontera científica y medicina digital.
 

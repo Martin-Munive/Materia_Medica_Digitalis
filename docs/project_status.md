@@ -125,6 +125,8 @@ Regla de comunicación:
 - Decimosexta sección de la Unidad II: `Validación por lotes y reportes de calidad`.
 - Decimoséptima sección de la Unidad II: `Exportación, auditoría y artefactos compartibles`.
 - Decimoctava sección de la Unidad II: `Cierre integrador: del dato biomédico al flujo verificable`.
+- Capítulo contenedor de la Unidad III: `Algoritmos fundamentales con lectura biomédica`.
+- Primera sección de la Unidad III: `De los datos a los algoritmos`.
 - Apéndice A: entorno de trabajo.
 - Glosario vivo.
 
@@ -146,8 +148,8 @@ Estimación vigente:
 - Infraestructura editorial: 90%.
 - Identidad, tesis y dirección editorial: 85%.
 - Primera unidad conceptual: 95%.
-- Primer lanzamiento mínimo publicable: 45%.
-- Libro completo según la ambición actual: 12-15%.
+- Primer lanzamiento mínimo publicable: 48%.
+- Libro completo según la ambición actual: 15-18%.
 
 La cifra global sigue siendo baja porque la obra completa apunta más allá de una introducción a Python: incluye algoritmos clásicos, estructuras de datos, análisis cuantitativo, bioinformática, genética computacional, señales, neurología computacional y frontera médico-computacional.
 
@@ -155,6 +157,9 @@ La cifra global sigue siendo baja porque la obra completa apunta más allá de u
 
 Cambios incorporados en el ciclo actual:
 
+- Apertura del Capítulo III con el nombre definitivo `Algoritmos fundamentales con lectura biomédica` y una arquitectura de 12 secciones.
+- Creación de `De los datos a los algoritmos`. Eje: diferencia entre problema, instancia y algoritmo; capas de pregunta, representación, precondición, propiedad y costo; laboratorio acumulativo con eventos oncológicos sintéticos; versión trazable de localización y pruebas mínimas.
+- Actualización de `_toc.yml` y del glosario con `Costo algorítmico`, `Instancia de un problema`, `Precondición` y `Problema computacional`.
 - Auditoría GLOBAL inaugural de la obra: se corrigió el contenedor de Unidad I, se añadió tesis/alcance máximo del libro, se normalizaron límites explícitos en secciones 01-09, se añadió bibliografía al contenedor de Unidad II y salida esperada al apéndice de entorno. La matriz automática quedó sin señales mecánicas pendientes.
 - Creación de la sección `Texto libre, códigos y vocabularios controlados`. Eje: diferencia entre `str`, texto libre, texto normalizado, categoría controlada y código; uso pedagógico de `Enum`; patrón mínimo de normalización, mapeo, rechazo explícito y conservación de razón. Ejemplos de código verificados antes del commit.
 - Creación de la sección `Booleanos, estados e incertidumbre`. Eje: diferencia entre `bool`, valor de verdad técnico y estado biomédico controlado; conservación de `presente`, `ausente`, `desconocido`, `no_evaluado` y `no_aplica`; prevención de convertir `None` o texto en ausencia clínica. Ejemplos de código verificados antes del commit.
@@ -257,17 +262,17 @@ Límite:
 
 Prioridad siguiente:
 
-1. Ejecutar la auditoría GLOBAL de cierre del Capítulo II.
-2. Verificar el build y la presentación visual de la sección integradora.
-3. Resolver el nombre definitivo y la apertura editorial del Capítulo III.
+1. Verificar build, navegación y presentación del inicio del Capítulo III.
+2. Publicar `De los datos a los algoritmos`.
+3. Desarrollar la sección 2 del Capítulo III: `Búsqueda lineal`.
 
 Decisión estructural vigente:
 
 - El Capítulo II quedó cerrado con 18 secciones.
-- La auditoría GLOBAL es la compuerta obligatoria entre los capítulos II y III.
-- El Capítulo III no se abrirá hasta resolver su nombre y comprobar la continuidad pedagógica.
+- La auditoría GLOBAL aprobó el paso entre los capítulos II y III.
+- El Capítulo III queda fijado en 12 secciones y usa un registro biomédico sintético como artefacto acumulativo.
 
-No hay una nueva sección candidata hasta superar esa compuerta editorial.
+La siguiente sección candidata es `Búsqueda lineal`.
 
 ## Riesgos activos
 
@@ -280,8 +285,7 @@ No hay una nueva sección candidata hasta superar esa compuerta editorial.
 
 Retomar por:
 
-1. `chapters/30-cierre-dato-biomedico-flujo-verificable.md` está completo.
-2. Ejecutar y registrar la auditoría GLOBAL del Capítulo II.
-3. Revisar visualmente el HTML de la nueva sección.
-4. Resolver el nombre definitivo del Capítulo III antes de escribir su primera sección.
-5. Validar el build local invocando la CLI interna de Jupyter Book: `.\venv\Scripts\python.exe -c "from jupyter_book.cli.main import main; raise SystemExit(main(['build', '.']))"`.
+1. `chapters/32-de-datos-a-algoritmos.md` abre el Capítulo III.
+2. Confirmar que el build y la publicación de esa sección siguen aprobados.
+3. Continuar con `Búsqueda lineal` como sección 2 del Capítulo III.
+4. Mantener el registro biomédico sintético y ampliar sus pruebas sin introducir datos reales.
